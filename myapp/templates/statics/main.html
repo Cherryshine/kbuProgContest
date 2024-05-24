@@ -1,0 +1,7148 @@
+<!DOCTYPE HTML>
+<html>
+{% load static %}
+
+<head>
+	<title>한국성서대학교 빈강의실 조회 서비스</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="{% static 'assets/css/main.css' %}" />
+	<script type="text/javascript" src="{% static 'TextColor.js' %}"></script>
+	<noscript>
+		<link rel="stylesheet" href="{% static 'assets/css/noscript.css' %}" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+	<!-- Wrapper -->
+	<div id="wrapper">
+		<!-- Header -->
+		<header id="header">
+
+			<div class="logo">
+				<style>
+					.symbol {
+						height: 80px;
+						line-height: 80px;
+					}
+
+					.symbol {
+						vertical-align: middle;
+					}
+				</style>
+				<img class="symbol" src="{% static 'images/logo_symbol.png' %}"></span>
+			</div>
+			<div class="content">
+				<div class="inner">
+					<style>
+						.title_ {
+							font-family: 'Nanum Gothic', sans-serif;
+						}
+					</style>
+					<link rel="preconnect" href="https://fonts.googleapis.com">
+					<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+					<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap"
+						rel="stylesheet">
+					<h1 class="title_">한국성서대학교 <br> 빈강의실 조회 서비스</h1>
+					<p>
+						<style>
+							.campusmap {
+								height: 300px;
+								line-height: 700px;
+							}
+
+							.campusmap {
+								vertical-align: middle;
+							}
+						</style>
+						<img class="campusmap" src="{% static 'images/campusmap.png' %}" usemap="#image-map">
+						<map name="image-map">
+							<a href="#Calmel">
+								<area target="response_coords" alt="갈멜관" title="갈멜관" coords="265,70,420,176"
+									shape="rect">
+							</a>
+							<a href="#Moria">
+								<area target="response_coords" alt="모리아관" title="모리아관" coords="275,177,486,300"
+									shape="rect">
+							</a>
+							<a href="#Illip">
+								<area target="response_coords" alt="일립관" title="일립관" coords="198,330,525,560"
+									shape="rect">
+							</a>
+							<a href="#Bokkeum">
+								<area target="response_coords" alt="복음관" title="복음관" coords="460,50,700,140"
+									shape="rect">
+							</a>
+							<a href="#Miral">
+								<area target="response_coords" alt="밀알관" title="밀알관" coords="640,141,750,270"
+									shape="rect">
+							</a>
+						</map>
+					</p>
+				</div>
+				<p></p>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#Calmel">갈멜관</a></li>
+					<li><a href="#Bokkeum">복음관</a></li>
+					<li><a href="#Miral">밀알관</a></li>
+					<li><a href="#Moria">모리아관</a></li>
+					<li><a href="#Illip">일립관</a></li>
+					<!--<li><a href="#elements">Elements</a></li>-->
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- 밀알관 -->
+			<article id="Miral">
+				<h2 class="major">밀알관</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .MiralLogos {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .MiralChall {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Miralfloor {
+						background-color: #cd9934;
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/* .tg .MiralChall{background-color:green} */
+					/* .tg .MiralLogos{background-color:red} */
+					/* .tg .MiralChall{background-color:green}적용하면 천마홀 버튼색이 바뀜 */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<td class="Miralfloor">B1층</td>
+							<td class="MiralChall"><a href="#MiralChall" class="MiralChall">천마홀</a></td>
+							<td class="MiralLogos"><a href="#MiralLogos" class="MiralLogos">로고스홀</a></td>
+						</tr>
+					</thead>
+				</table>
+				<!-- contents -->
+			</article>
+
+			<!-- 갈멜관 -->
+			<article id="Calmel">
+				<h2 class="major">갈멜관</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Calmel301 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Calmel303 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Calmel305 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .CalmelLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .CalmelLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .CalmelLab3 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .CalmelLab4 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .CalmelBhall {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .CalmelInfo3 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .CalmelInfo4 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Calmelfloor {
+						background-color: #cd9934;
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Calmelfloor">3층</th>
+							<th class="Calmel301"><a href="#Calmel301" class="Calmel301">301호</a></th>
+							<th class="Calmel303"><a href="#Calmel303" class="Calmel303">303호</a></th>
+							<th class="Calmel305"><a href="#Calmel305" class="Calmel305">305호</a></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="Calmelfloor">2층</td>
+							<td class="CalmelLab2"><a href="#CalmelLab2" class="CalmelLab2">컴소실습실2</a></td>
+							<td class="CalmelLab3"><a href="#CalmelLab3" class="CalmelLab3">컴소실습실3</a></td>
+							<td class="CalmelLab4"><a href="#CalmelLab4" class="CalmelLab4">컴소실습실4</a></td>
+						</tr>
+						<tr>
+							<td class="Calmelfloor">1층</td>
+							<td class="CalmelBhall" colspan="2"><a href="#CalmelBhall" class="CalmelBhall"
+									colspan="2">브니엘홀</a></td>
+							<td class="CalmelLab1"><a href="#CalmelLab1" class="CalmelLab1">컴소실습실1</a></td>
+						</tr>
+						<tr>
+							<td class="Calmelfloor">B1층</td>
+							<td class="CalmelInfo3"><a href="#CalmelInfo3" class="CalmelInfo3">교양정보3실</a></td>
+							<td class="CalmelInfo4" colspan="2"><a href="#CalmelInfo4" class="CalmelInfo4"
+									colspan="2">교양정보4실</a></td>
+						</tr>
+					</tbody>
+				</table>
+				<!-- contents  -->
+			</article>
+
+			<!-- 복음관 -->
+			<article id="Bokkeum">
+				<h2 class="major">복음관</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Bokkeum401 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Bokkeum403 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Bokkeum405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Bokkeum407 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Bokkeum409 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Bokkeum301 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Bokkeum303 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Bokkeumfloor {
+						background-color: #cd9934;
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Bokkeumfloor">4층</th>
+							<th class="Bokkeum401"><a href="#Bokkeum401" class="Bokkeum401">401호</a></th>
+							<th class="Bokkeum403"><a href="#Bokkeum403" class="Bokkeum403">403호</a></th>
+							<th class="Bokkeum405"><a href="#Bokkeum405" class="Bokkeum405">405호</a></th>
+							<th class="Bokkeum407"><a href="#Bokkeum407" class="Bokkeum407">407호</a></th>
+							<th class="Bokkeum409"><a href="#Bokkeum409" class="Bokkeum409">409호</a></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="Bokkeumfloor">3층</td>
+							<td class="Bokkeum301" colspan="3"><a href="#Bokkeum301" class="Bokkeum301"
+									colspan="3">301호</a></td>
+							<td class="Bokkeum303" colspan="2"><a href="#Bokkeum303" class="Bokkeum303"
+									colspan="2">303호</a></td>
+						</tr>
+					</tbody>
+				</table>
+				<!-- contents  -->
+			</article>
+
+			<!-- 일립관 -->
+			<article id="Illip">
+				<h2 class="major">일립관</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illipfloor {
+						background-color: #cd9934;
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+				</style>
+				<table class="tg">
+					<thead></thead>
+					<tbody>
+						<tr>
+							<th class="Illipfloor">5층</th>
+							<th class="Illip501"><a href="#Illip501" class="Illip501">501호</a></th>
+							<th class="Illip503"><a href="#Illip503" class="Illip503">503호</a></th>
+							<th class="Illip505"><a href="#Illip505" class="Illip505">505호</a></th>
+							<th class="Illip507"><a href="#Illip507" class="Illip507">507호</a></th>
+							<th class="Illip509"><a href="#Illip509" class="Illip509">509호</a></th>
+						</tr>
+
+
+						<tr>
+							<td class="Illipfloor">4층</td>
+							<td class="Illip405"><a href="#Illip405" class="Illip405">405호</a></td>
+							<td class="IllipBasicSNLab1" colspan="2"><a href="#IllipBasicSNLab1"
+									class="IllipBasicSNLab1" colspan="2">간호실습실1</a></td>
+							<td class="IllipBasicSNLab2" colspan="2"><a href="#IllipBasicSNLab2"
+									class="IllipBasicSNLab2" colspan="2">간호실습실2</a></td>
+						</tr>
+						<tr>
+							<td class="Illipfloor">3층</td>
+							<td class="IllipBehavAnalysisLab" colspan="5"><a href="#IllipBehavAnalysisLab"
+									class="IllipBehavAnalysisLab" colspan="5">수업행동분석실</a></td>
+						</tr>
+						<tr>
+							<td class="Illipfloor">B1층</td>
+							<td class="IllipEduLab" colspan="5"><a href="#IllipEduLab" class="IllipEduLab"
+									colspan="5">보육실습실</a></td>
+						</tr>
+					</tbody>
+				</table>
+				<!-- contents  -->
+			</article>
+
+			<!-- 모리아관 -->
+			<article id="Moria">
+				<h2 class="major">모리아관</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Moria301 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Moria305 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Moria308 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Moria310 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Moria212 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Moria109 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Moriafloor {
+						background-color: #cd9934;
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Moriafloor">3층</th>
+							<th class="Moria301"><a href="#Moria301" class="Moria301">301호</a></th>
+							<th class="Moria305"><a href="#Moria305" class="Moria305">305호</a></th>
+							<th class="Moria308"><a href="#Moria308" class="Moria308">308호</a></th>
+							<th class="Moria310"><a href="#Moria310" class="Moria310">310호</a></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="Moriafloor">2층</td>
+							<td class="Moria212" colspan="4"><a href="#Moria212" class="Moria212" colspan="4">212호</td>
+						</tr>
+						<tr>
+							<td class="Moriafloor">1층</td>
+							<td class="Moria109" colspan="4"><a href="#Moria109" class="Moria109" colspan="4">109호</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<!-- contents  -->
+			</article>
+
+			<!-- CalmelBhall시간표 -->
+			<article id="CalmelBhall">
+				<h2 class="major">브니엘홀</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+	   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="CalmelBhall_11" class="a11"> </td>
+							<td id="CalmelBhall_21" class="a21"> </td>
+							<td id="CalmelBhall_31" class="a31"> </td>
+							<td id="CalmelBhall_41" class="a41"> </td>
+							<td id="CalmelBhall_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="CalmelBhall_12" class="a12"> </td>
+							<td id="CalmelBhall_22" class="a22"> </td>
+							<td id="CalmelBhall_32" class="a32"> </td>
+							<td id="CalmelBhall_42" class="a42"> </td>
+							<td id="CalmelBhall_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="CalmelBhall_13" class="a13"> </td>
+							<td id="CalmelBhall_23" class="a23"> </td>
+							<td id="CalmelBhall_33" class="a33"> </td>
+							<td id="CalmelBhall_43" class="a43"> </td>
+							<td id="CalmelBhall_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="CalmelBhall_14" class="a14"> </td>
+							<td id="CalmelBhall_24" class="a24"> </td>
+							<td id="CalmelBhall_34" class="a34"> </td>
+							<td id="CalmelBhall_44" class="a44"> </td>
+							<td id="CalmelBhall_45" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="CalmelBhall_15" class="a15"> </td>
+							<td id="CalmelBhall_25" class="a25"> </td>
+							<td id="CalmelBhall_35" class="a35"> </td>
+							<td id="CalmelBhall_45" class="a45"> </td>
+							<td id="CalmelBhall_55" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="CalmelBhall_16" class="a16"> </td>
+							<td id="CalmelBhall_26" class="a26"> </td>
+							<td id="CalmelBhall_36" class="a36"> </td>
+							<td id="CalmelBhall_46" class="a46"> </td>
+							<td id="CalmelBhall_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="CalmelBhall_17" class="a17"> </td>
+							<td id="CalmelBhall_27" class="a27"> </td>
+							<td id="CalmelBhall_37" class="a37"> </td>
+							<td id="CalmelBhall_47" class="a47"> </td>
+							<td id="CalmelBhall_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="CalmelBhall_18" class="a18"> </td>
+							<td id="CalmelBhall_28" class="a28"> </td>
+							<td id="CalmelBhall_38" class="a38"> </td>
+							<td id="CalmelBhall_48" class="a48"> </td>
+							<td id="CalmelBhall_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+					<!-- <script>
+		  var li = document.querySelector('.a21');
+		  li.style.backgroundColor = "orange";
+		  var li = document.querySelectorAll('.class1');
+		  li.style.color = "blue";
+	   </script> -->
+				</table>
+			</article>
+
+
+			<article id="Calmelinfo3">
+				<h2 class="major">교양정보3실</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+	   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="CalmelInfo3_11" class="a11"> </td>
+							<td id="CalmelInfo3_21" class="a21"> </td>
+							<td id="CalmelInfo3_31" class="a31"> </td>
+							<td id="CalmelInfo3_41" class="a41"> </td>
+							<td id="CalmelInfo3_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="CalmelInfo3_12" class="a12"> </td>
+							<td id="CalmelInfo3_22" class="a22"> </td>
+							<td id="CalmelInfo3_32" class="a32"> </td>
+							<td id="CalmelInfo3_42" class="a42"> </td>
+							<td id="CalmelInfo3_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="CalmelInfo3_13" class="a13"> </td>
+							<td id="CalmelInfo3_23" class="a23"> </td>
+							<td id="CalmelInfo3_33" class="a33"> </td>
+							<td id="CalmelInfo3_43" class="a43"> </td>
+							<td id="CalmelInfo3_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="CalmelInfo3_14" class="a14"> </td>
+							<td id="CalmelInfo3_24" class="a24"> </td>
+							<td id="CalmelInfo3_34" class="a34"> </td>
+							<td id="CalmelInfo3_44" class="a44"> </td>
+							<td id="CalmelInfo3_45" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="CalmelInfo3_15" class="a15"> </td>
+							<td id="CalmelInfo3_25" class="a25"> </td>
+							<td id="CalmelInfo3_35" class="a35"> </td>
+							<td id="CalmelInfo3_45" class="a45"> </td>
+							<td id="CalmelInfo3_55" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="CalmelInfo3_16" class="a16"> </td>
+							<td id="CalmelInfo3_26" class="a26"> </td>
+							<td id="CalmelInfo3_36" class="a36"> </td>
+							<td id="CalmelInfo3_46" class="a46"> </td>
+							<td id="CalmelInfo3_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="CalmelInfo3_17" class="a17"> </td>
+							<td id="CalmelInfo3_27" class="a27"> </td>
+							<td id="CalmelInfo3_37" class="a37"> </td>
+							<td id="CalmelInfo3_47" class="a47"> </td>
+							<td id="CalmelInfo3_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="CalmelInfo3_18" class="a18"> </td>
+							<td id="CalmelInfo3_28" class="a28"> </td>
+							<td id="CalmelInfo3_38" class="a38"> </td>
+							<td id="CalmelInfo3_48" class="a48"> </td>
+							<td id="CalmelInfo3_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+				</table>
+			</article>
+
+
+			<article id="Calmelinfo4">
+				<h2 class="major">교양정보4실</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+		   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="CalmelInfo4_11" class="a11"> </td>
+							<td id="CalmelInfo4_21" class="a21"> </td>
+							<td id="CalmelInfo4_31" class="a31"> </td>
+							<td id="CalmelInfo4_41" class="a41"> </td>
+							<td id="CalmelInfo4_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="CalmelInfo4_12" class="a12"> </td>
+							<td id="CalmelInfo4_22" class="a22"> </td>
+							<td id="CalmelInfo4_32" class="a32"> </td>
+							<td id="CalmelInfo4_42" class="a42"> </td>
+							<td id="CalmelInfo4_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="CalmelInfo4_13" class="a13"> </td>
+							<td id="CalmelInfo4_23" class="a23"> </td>
+							<td id="CalmelInfo4_33" class="a33"> </td>
+							<td id="CalmelInfo4_43" class="a43"> </td>
+							<td id="CalmelInfo4_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="CalmelInfo4_14" class="a14"> </td>
+							<td id="CalmelInfo4_24" class="a24"> </td>
+							<td id="CalmelInfo4_34" class="a34"> </td>
+							<td id="CalmelInfo4_44" class="a44"> </td>
+							<td id="CalmelInfo4_45" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="CalmelInfo4_15" class="a15"> </td>
+							<td id="CalmelInfo4_25" class="a25"> </td>
+							<td id="CalmelInfo4_35" class="a35"> </td>
+							<td id="CalmelInfo4_45" class="a45"> </td>
+							<td id="CalmelInfo4_55" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="CalmelInfo4_16" class="a16"> </td>
+							<td id="CalmelInfo4_26" class="a26"> </td>
+							<td id="CalmelInfo4_36" class="a36"> </td>
+							<td id="CalmelInfo4_46" class="a46"> </td>
+							<td id="CalmelInfo4_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="CalmelInfo4_17" class="a17"> </td>
+							<td id="CalmelInfo4_27" class="a27"> </td>
+							<td id="CalmelInfo4_37" class="a37"> </td>
+							<td id="CalmelInfo4_47" class="a47"> </td>
+							<td id="CalmelInfo4_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="CalmelInfo4_18" class="a18"> </td>
+							<td id="CalmelInfo4_28" class="a28"> </td>
+							<td id="CalmelInfo4_38" class="a38"> </td>
+							<td id="CalmelInfo4_48" class="a48"> </td>
+							<td id="CalmelInfo4_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+				</table>
+			</article>
+
+
+			<article id="Calmel301">
+				<h2 class="major">갈멜관301</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+			   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="Calmel301_11" class="a11"> </td>
+							<td id="Calmel301_21" class="a21"> </td>
+							<td id="Calmel301_31" class="a31"> </td>
+							<td id="Calmel301_41" class="a41"> </td>
+							<td id="Calmel301_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="Calmel301_12" class="a12"> </td>
+							<td id="Calmel301_22" class="a22"> </td>
+							<td id="Calmel301_32" class="a32"> </td>
+							<td id="Calmel301_42" class="a42"> </td>
+							<td id="Calmel301_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="Calmel301_13" class="a13"> </td>
+							<td id="Calmel301_23" class="a23"> </td>
+							<td id="Calmel301_33" class="a33"> </td>
+							<td id="Calmel301_43" class="a43"> </td>
+							<td id="Calmel301_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="Calmel301_14" class="a14"> </td>
+							<td id="Calmel301_24" class="a24"> </td>
+							<td id="Calmel301_34" class="a34"> </td>
+							<td id="Calmel301_44" class="a44"> </td>
+							<td id="Calmel301_45" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="Calmel301_15" class="a15"> </td>
+							<td id="Calmel301_25" class="a25"> </td>
+							<td id="Calmel301_35" class="a35"> </td>
+							<td id="Calmel301_45" class="a45"> </td>
+							<td id="Calmel301_55" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="Calmel301_16" class="a16"> </td>
+							<td id="Calmel301_26" class="a26"> </td>
+							<td id="Calmel301_36" class="a36"> </td>
+							<td id="Calmel301_46" class="a46"> </td>
+							<td id="Calmel301_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="Calmel301_17" class="a17"> </td>
+							<td id="Calmel301_27" class="a27"> </td>
+							<td id="Calmel301_37" class="a37"> </td>
+							<td id="Calmel301_47" class="a47"> </td>
+							<td id="Calmel301_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="Calmel301_18" class="a18"> </td>
+							<td id="Calmel301_28" class="a28"> </td>
+							<td id="Calmel301_38" class="a38"> </td>
+							<td id="Calmel301_48" class="a48"> </td>
+							<td id="Calmel301_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+				</table>
+			</article>
+
+			<article id="Calmel303">
+				<h2 class="major">갈멜관303</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+				   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="Calmel303_11" class="a11"> </td>
+							<td id="Calmel303_21" class="a21"> </td>
+							<td id="Calmel303_31" class="a31"> </td>
+							<td id="Calmel303_41" class="a41"> </td>
+							<td id="Calmel303_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="Calmel303_12" class="a12"> </td>
+							<td id="Calmel303_22" class="a22"> </td>
+							<td id="Calmel303_32" class="a32"> </td>
+							<td id="Calmel303_42" class="a42"> </td>
+							<td id="Calmel303_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="Calmel303_13" class="a13"> </td>
+							<td id="Calmel303_23" class="a23"> </td>
+							<td id="Calmel303_33" class="a33"> </td>
+							<td id="Calmel303_43" class="a43"> </td>
+							<td id="Calmel303_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="Calmel303_14" class="a14"> </td>
+							<td id="Calmel303_24" class="a24"> </td>
+							<td id="Calmel303_34" class="a34"> </td>
+							<td id="Calmel303_44" class="a44"> </td>
+							<td id="Calmel303_45" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="Calmel303_15" class="a15"> </td>
+							<td id="Calmel303_25" class="a25"> </td>
+							<td id="Calmel303_35" class="a35"> </td>
+							<td id="Calmel303_45" class="a45"> </td>
+							<td id="Calmel303_55" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="Calmel303_16" class="a16"> </td>
+							<td id="Calmel303_26" class="a26"> </td>
+							<td id="Calmel303_36" class="a36"> </td>
+							<td id="Calmel303_46" class="a46"> </td>
+							<td id="Calmel303_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="Calmel303_17" class="a17"> </td>
+							<td id="Calmel303_27" class="a27"> </td>
+							<td id="Calmel303_37" class="a37"> </td>
+							<td id="Calmel303_47" class="a47"> </td>
+							<td id="Calmel303_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="Calmel303_18" class="a18"> </td>
+							<td id="Calmel303_28" class="a28"> </td>
+							<td id="Calmel303_38" class="a38"> </td>
+							<td id="Calmel303_48" class="a48"> </td>
+							<td id="Calmel303_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+				</table>
+			</article>
+
+
+			<article id="Calmel305">
+				<h2 class="major">갈멜관305</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+					   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="Calmel305_11" class="a11"> </td>
+							<td id="Calmel305_21" class="a21"> </td>
+							<td id="Calmel305_31" class="a31"> </td>
+							<td id="Calmel305_41" class="a41"> </td>
+							<td id="Calmel305_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="Calmel305_12" class="a12"> </td>
+							<td id="Calmel305_22" class="a22"> </td>
+							<td id="Calmel305_32" class="a32"> </td>
+							<td id="Calmel305_42" class="a42"> </td>
+							<td id="Calmel305_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="Calmel305_13" class="a13"> </td>
+							<td id="Calmel305_23" class="a23"> </td>
+							<td id="Calmel305_33" class="a33"> </td>
+							<td id="Calmel305_43" class="a43"> </td>
+							<td id="Calmel305_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="Calmel305_14" class="a14"> </td>
+							<td id="Calmel305_24" class="a24"> </td>
+							<td id="Calmel305_34" class="a34"> </td>
+							<td id="Calmel305_44" class="a44"> </td>
+							<td id="Calmel305_45" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="Calmel305_15" class="a15"> </td>
+							<td id="Calmel305_25" class="a25"> </td>
+							<td id="Calmel305_35" class="a35"> </td>
+							<td id="Calmel305_45" class="a45"> </td>
+							<td id="Calmel305_55" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="Calmel305_16" class="a16"> </td>
+							<td id="Calmel305_26" class="a26"> </td>
+							<td id="Calmel305_36" class="a36"> </td>
+							<td id="Calmel305_46" class="a46"> </td>
+							<td id="Calmel305_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="Calmel305_17" class="a17"> </td>
+							<td id="Calmel305_27" class="a27"> </td>
+							<td id="Calmel305_37" class="a37"> </td>
+							<td id="Calmel305_47" class="a47"> </td>
+							<td id="Calmel305_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="Calmel305_18" class="a18"> </td>
+							<td id="Calmel305_28" class="a28"> </td>
+							<td id="Calmel305_38" class="a38"> </td>
+							<td id="Calmel305_48" class="a48"> </td>
+							<td id="Calmel305_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+				</table>
+			</article>
+
+
+			<article id="CalmelLab1">
+				<h2 class="major">컴소실습실1</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+						   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="CalmelLab1_11" class="a11"> </td>
+							<td id="CalmelLab1_21" class="a21"> </td>
+							<td id="CalmelLab1_31" class="a31"> </td>
+							<td id="CalmelLab1_41" class="a41"> </td>
+							<td id="CalmelLab1_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="CalmelLab1_12" class="a12"> </td>
+							<td id="CalmelLab1_22" class="a22"> </td>
+							<td id="CalmelLab1_32" class="a32"> </td>
+							<td id="CalmelLab1_42" class="a42"> </td>
+							<td id="CalmelLab1_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="CalmelLab1_13" class="a13"> </td>
+							<td id="CalmelLab1_23" class="a23"> </td>
+							<td id="CalmelLab1_33" class="a33"> </td>
+							<td id="CalmelLab1_43" class="a43"> </td>
+							<td id="CalmelLab1_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="CalmelLab1_14" class="a14"> </td>
+							<td id="CalmelLab1_24" class="a24"> </td>
+							<td id="CalmelLab1_34" class="a34"> </td>
+							<td id="CalmelLab1_44" class="a44"> </td>
+							<td id="CalmelLab1_54" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="CalmelLab1_15" class="a15"> </td>
+							<td id="CalmelLab1_25" class="a25"> </td>
+							<td id="CalmelLab1_35" class="a35"> </td>
+							<td id="CalmelLab1_45" class="a45"> </td>
+							<td id="CalmelLab1_55" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="CalmelLab1_16" class="a16"> </td>
+							<td id="CalmelLab1_26" class="a26"> </td>
+							<td id="CalmelLab1_36" class="a36"> </td>
+							<td id="CalmelLab1_46" class="a46"> </td>
+							<td id="CalmelLab1_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="CalmelLab1_17" class="a17"> </td>
+							<td id="CalmelLab1_27" class="a27"> </td>
+							<td id="CalmelLab1_37" class="a37"> </td>
+							<td id="CalmelLab1_47" class="a47"> </td>
+							<td id="CalmelLab1_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="CalmelLab1_18" class="a18"> </td>
+							<td id="CalmelLab1_28" class="a28"> </td>
+							<td id="CalmelLab1_38" class="a38"> </td>
+							<td id="CalmelLab1_48" class="a48"> </td>
+							<td id="CalmelLab1_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+				</table>
+			</article>
+
+
+			<article id="CalmelLab2">
+				<h2 class="major">컴소실습실2</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+							   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="CalmelLab2_11" class="a11"> </td>
+							<td id="CalmelLab2_21" class="a21"> </td>
+							<td id="CalmelLab2_31" class="a31"> </td>
+							<td id="CalmelLab2_41" class="a41"> </td>
+							<td id="CalmelLab2_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="CalmelLab2_12" class="a12"> </td>
+							<td id="CalmelLab2_22" class="a22"> </td>
+							<td id="CalmelLab2_32" class="a32"> </td>
+							<td id="CalmelLab2_42" class="a42"> </td>
+							<td id="CalmelLab2_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="CalmelLab2_13" class="a13"> </td>
+							<td id="CalmelLab2_23" class="a23"> </td>
+							<td id="CalmelLab2_33" class="a33"> </td>
+							<td id="CalmelLab2_43" class="a43"> </td>
+							<td id="CalmelLab2_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="CalmelLab2_14" class="a14"> </td>
+							<td id="CalmelLab2_24" class="a24"> </td>
+							<td id="CalmelLab2_34" class="a34"> </td>
+							<td id="CalmelLab2_44" class="a44"> </td>
+							<td id="CalmelLab2_45" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="CalmelLab2_15" class="a15"> </td>
+							<td id="CalmelLab2_25" class="a25"> </td>
+							<td id="CalmelLab2_35" class="a35"> </td>
+							<td id="CalmelLab2_45" class="a45"> </td>
+							<td id="CalmelLab2_55" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="CalmelLab2_16" class="a16"> </td>
+							<td id="CalmelLab2_26" class="a26"> </td>
+							<td id="CalmelLab2_36" class="a36"> </td>
+							<td id="CalmelLab2_46" class="a46"> </td>
+							<td id="CalmelLab2_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="CalmelLab2_17" class="a17"> </td>
+							<td id="CalmelLab2_27" class="a27"> </td>
+							<td id="CalmelLab2_37" class="a37"> </td>
+							<td id="CalmelLab2_47" class="a47"> </td>
+							<td id="CalmelLab2_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="CalmelLab2_18" class="a18"> </td>
+							<td id="CalmelLab2_28" class="a28"> </td>
+							<td id="CalmelLab2_38" class="a38"> </td>
+							<td id="CalmelLab2_48" class="a48"> </td>
+							<td id="CalmelLab2_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+				</table>
+			</article>
+
+
+			<article id="CalmelLab3">
+				<h2 class="major">컴소실습실3</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+								   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="CalmelLab3_11" class="a11"> </td>
+							<td id="CalmelLab3_21" class="a21"> </td>
+							<td id="CalmelLab3_31" class="a31"> </td>
+							<td id="CalmelLab3_41" class="a41"> </td>
+							<td id="CalmelLab3_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="CalmelLab3_12" class="a12"> </td>
+							<td id="CalmelLab3_22" class="a22"> </td>
+							<td id="CalmelLab3_32" class="a32"> </td>
+							<td id="CalmelLab3_42" class="a42"> </td>
+							<td id="CalmelLab3_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="CalmelLab3_13" class="a13"> </td>
+							<td id="CalmelLab3_23" class="a23"> </td>
+							<td id="CalmelLab3_33" class="a33"> </td>
+							<td id="CalmelLab3_43" class="a43"> </td>
+							<td id="CalmelLab3_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="CalmelLab3_14" class="a14"> </td>
+							<td id="CalmelLab3_24" class="a24"> </td>
+							<td id="CalmelLab3_34" class="a34"> </td>
+							<td id="CalmelLab3_44" class="a44"> </td>
+							<td id="CalmelLab3_45" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="CalmelLab3_15" class="a15"> </td>
+							<td id="CalmelLab3_25" class="a25"> </td>
+							<td id="CalmelLab3_35" class="a35"> </td>
+							<td id="CalmelLab3_45" class="a45"> </td>
+							<td id="CalmelLab3_55" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="CalmelLab3_16" class="a16"> </td>
+							<td id="CalmelLab3_26" class="a26"> </td>
+							<td id="CalmelLab3_36" class="a36"> </td>
+							<td id="CalmelLab3_46" class="a46"> </td>
+							<td id="CalmelLab3_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="CalmelLab3_17" class="a17"> </td>
+							<td id="CalmelLab3_27" class="a27"> </td>
+							<td id="CalmelLab3_37" class="a37"> </td>
+							<td id="CalmelLab3_47" class="a47"> </td>
+							<td id="CalmelLab3_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="CalmelLab3_18" class="a18"> </td>
+							<td id="CalmelLab3_28" class="a28"> </td>
+							<td id="CalmelLab3_38" class="a38"> </td>
+							<td id="CalmelLab3_48" class="a48"> </td>
+							<td id="CalmelLab3_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+				</table>
+			</article>
+
+
+			<article id="CalmelLab4">
+				<h2 class="major">컴소실습실4</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+									   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="CalmelLab4_11" class="a11"> </td>
+							<td id="CalmelLab4_21" class="a21"> </td>
+							<td id="CalmelLab4_31" class="a31"> </td>
+							<td id="CalmelLab4_41" class="a41"> </td>
+							<td id="CalmelLab4_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="CalmelLab4_12" class="a12"> </td>
+							<td id="CalmelLab4_22" class="a22"> </td>
+							<td id="CalmelLab4_32" class="a32"> </td>
+							<td id="CalmelLab4_42" class="a42"> </td>
+							<td id="CalmelLab4_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="CalmelLab4_13" class="a13"> </td>
+							<td id="CalmelLab4_23" class="a23"> </td>
+							<td id="CalmelLab4_33" class="a33"> </td>
+							<td id="CalmelLab4_43" class="a43"> </td>
+							<td id="CalmelLab4_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="CalmelLab4_14" class="a14"> </td>
+							<td id="CalmelLab4_24" class="a24"> </td>
+							<td id="CalmelLab4_34" class="a34"> </td>
+							<td id="CalmelLab4_44" class="a44"> </td>
+							<td id="CalmelLab4_45" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="CalmelLab4_15" class="a15"> </td>
+							<td id="CalmelLab4_25" class="a25"> </td>
+							<td id="CalmelLab4_35" class="a35"> </td>
+							<td id="CalmelLab4_45" class="a45"> </td>
+							<td id="CalmelLab4_55" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="CalmelLab4_16" class="a16"> </td>
+							<td id="CalmelLab4_26" class="a26"> </td>
+							<td id="CalmelLab4_36" class="a36"> </td>
+							<td id="CalmelLab4_46" class="a46"> </td>
+							<td id="CalmelLab4_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="CalmelLab4_17" class="a17"> </td>
+							<td id="CalmelLab4_27" class="a27"> </td>
+							<td id="CalmelLab4_37" class="a37"> </td>
+							<td id="CalmelLab4_47" class="a47"> </td>
+							<td id="CalmelLab4_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="CalmelLab4_18" class="a18"> </td>
+							<td id="CalmelLab4_28" class="a28"> </td>
+							<td id="CalmelLab4_38" class="a38"> </td>
+							<td id="CalmelLab4_48" class="a48"> </td>
+							<td id="CalmelLab4_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+				</table>
+			</article>
+
+
+
+			<article id="Moria109">
+				<h2 class="major">모리아관109</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+										   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="Moria109_11" class="a11"> </td>
+							<td id="Moria109_21" class="a21"> </td>
+							<td id="Moria109_31" class="a31"> </td>
+							<td id="Moria109_41" class="a41"> </td>
+							<td id="Moria109_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="Moria109_12" class="a12"> </td>
+							<td id="Moria109_22" class="a22"> </td>
+							<td id="Moria109_32" class="a32"> </td>
+							<td id="Moria109_42" class="a42"> </td>
+							<td id="Moria109_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="Moria109_13" class="a13"> </td>
+							<td id="Moria109_23" class="a23"> </td>
+							<td id="Moria109_33" class="a33"> </td>
+							<td id="Moria109_43" class="a43"> </td>
+							<td id="Moria109_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="Moria109_14" class="a14"> </td>
+							<td id="Moria109_24" class="a24"> </td>
+							<td id="Moria109_34" class="a34"> </td>
+							<td id="Moria109_44" class="a44"> </td>
+							<td id="Moria109_45" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="Moria109_15" class="a15"> </td>
+							<td id="Moria109_25" class="a25"> </td>
+							<td id="Moria109_35" class="a35"> </td>
+							<td id="Moria109_45" class="a45"> </td>
+							<td id="Moria109_55" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="Moria109_16" class="a16"> </td>
+							<td id="Moria109_26" class="a26"> </td>
+							<td id="Moria109_36" class="a36"> </td>
+							<td id="Moria109_46" class="a46"> </td>
+							<td id="Moria109_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="Moria109_17" class="a17"> </td>
+							<td id="Moria109_27" class="a27"> </td>
+							<td id="Moria109_37" class="a37"> </td>
+							<td id="Moria109_47" class="a47"> </td>
+							<td id="Moria109_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="Moria109_18" class="a18"> </td>
+							<td id="Moria109_28" class="a28"> </td>
+							<td id="Moria109_38" class="a38"> </td>
+							<td id="Moria109_48" class="a48"> </td>
+							<td id="Moria109_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+				</table>
+			</article>
+
+
+
+			<article id="Moria212">
+				<h2 class="major">모리아관212</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+											   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="Moria212_11" class="a11"> </td>
+							<td id="Moria212_21" class="a21"> </td>
+							<td id="Moria212_31" class="a31"> </td>
+							<td id="Moria212_41" class="a41"> </td>
+							<td id="Moria212_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="Moria212_12" class="a12"> </td>
+							<td id="Moria212_22" class="a22"> </td>
+							<td id="Moria212_32" class="a32"> </td>
+							<td id="Moria212_42" class="a42"> </td>
+							<td id="Moria212_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="Moria212_13" class="a13"> </td>
+							<td id="Moria212_23" class="a23"> </td>
+							<td id="Moria212_33" class="a33"> </td>
+							<td id="Moria212_43" class="a43"> </td>
+							<td id="Moria212_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="Moria212_14" class="a14"> </td>
+							<td id="Moria212_24" class="a24"> </td>
+							<td id="Moria212_34" class="a34"> </td>
+							<td id="Moria212_44" class="a44"> </td>
+							<td id="Moria212_45" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="Moria212_15" class="a15"> </td>
+							<td id="Moria212_25" class="a25"> </td>
+							<td id="Moria212_35" class="a35"> </td>
+							<td id="Moria212_45" class="a45"> </td>
+							<td id="Moria212_55" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="Moria212_16" class="a16"> </td>
+							<td id="Moria212_26" class="a26"> </td>
+							<td id="Moria212_36" class="a36"> </td>
+							<td id="Moria212_46" class="a46"> </td>
+							<td id="Moria212_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="Moria212_17" class="a17"> </td>
+							<td id="Moria212_27" class="a27"> </td>
+							<td id="Moria212_37" class="a37"> </td>
+							<td id="Moria212_47" class="a47"> </td>
+							<td id="Moria212_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="Moria212_18" class="a18"> </td>
+							<td id="Moria212_28" class="a28"> </td>
+							<td id="Moria212_38" class="a38"> </td>
+							<td id="Moria212_48" class="a48"> </td>
+							<td id="Moria212_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+				</table>
+			</article>
+
+			<article id="Moria301">
+				<h2 class="major">모리아관301</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+												   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="Moria301_11" class="a11"> </td>
+							<td id="Moria301_21" class="a21"> </td>
+							<td id="Moria301_31" class="a31"> </td>
+							<td id="Moria301_41" class="a41"> </td>
+							<td id="Moria301_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="Moria301_12" class="a12"> </td>
+							<td id="Moria301_22" class="a22"> </td>
+							<td id="Moria301_32" class="a32"> </td>
+							<td id="Moria301_42" class="a42"> </td>
+							<td id="Moria301_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="Moria301_13" class="a13"> </td>
+							<td id="Moria301_23" class="a23"> </td>
+							<td id="Moria301_33" class="a33"> </td>
+							<td id="Moria301_43" class="a43"> </td>
+							<td id="Moria301_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="Moria301_14" class="a14"> </td>
+							<td id="Moria301_24" class="a24"> </td>
+							<td id="Moria301_34" class="a34"> </td>
+							<td id="Moria301_44" class="a44"> </td>
+							<td id="Moria301_45" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="Moria301_15" class="a15"> </td>
+							<td id="Moria301_25" class="a25"> </td>
+							<td id="Moria301_35" class="a35"> </td>
+							<td id="Moria301_45" class="a45"> </td>
+							<td id="Moria301_55" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="Moria301_16" class="a16"> </td>
+							<td id="Moria301_26" class="a26"> </td>
+							<td id="Moria301_36" class="a36"> </td>
+							<td id="Moria301_46" class="a46"> </td>
+							<td id="Moria301_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="Moria301_17" class="a17"> </td>
+							<td id="Moria301_27" class="a27"> </td>
+							<td id="Moria301_37" class="a37"> </td>
+							<td id="Moria301_47" class="a47"> </td>
+							<td id="Moria301_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="Moria301_18" class="a18"> </td>
+							<td id="Moria301_28" class="a28"> </td>
+							<td id="Moria301_38" class="a38"> </td>
+							<td id="Moria301_48" class="a48"> </td>
+							<td id="Moria301_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+				</table>
+			</article>
+
+
+
+			<article id="Moria305">
+				<h2 class="major">모리아관305</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+													   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="Moria305_11" class="a11"> </td>
+							<td id="Moria305_21" class="a21"> </td>
+							<td id="Moria305_31" class="a31"> </td>
+							<td id="Moria305_41" class="a41"> </td>
+							<td id="Moria305_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="Moria305_12" class="a12"> </td>
+							<td id="Moria305_22" class="a22"> </td>
+							<td id="Moria305_32" class="a32"> </td>
+							<td id="Moria305_42" class="a42"> </td>
+							<td id="Moria305_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="Moria305_13" class="a13"> </td>
+							<td id="Moria305_23" class="a23"> </td>
+							<td id="Moria305_33" class="a33"> </td>
+							<td id="Moria305_43" class="a43"> </td>
+							<td id="Moria305_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="Moria305_14" class="a14"> </td>
+							<td id="Moria305_24" class="a24"> </td>
+							<td id="Moria305_34" class="a34"> </td>
+							<td id="Moria305_44" class="a44"> </td>
+							<td id="Moria305_45" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="Moria305_15" class="a15"> </td>
+							<td id="Moria305_25" class="a25"> </td>
+							<td id="Moria305_35" class="a35"> </td>
+							<td id="Moria305_45" class="a45"> </td>
+							<td id="Moria305_55" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="Moria305_16" class="a16"> </td>
+							<td id="Moria305_26" class="a26"> </td>
+							<td id="Moria305_36" class="a36"> </td>
+							<td id="Moria305_46" class="a46"> </td>
+							<td id="Moria305_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="Moria305_17" class="a17"> </td>
+							<td id="Moria305_27" class="a27"> </td>
+							<td id="Moria305_37" class="a37"> </td>
+							<td id="Moria305_47" class="a47"> </td>
+							<td id="Moria305_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="Moria305_18" class="a18"> </td>
+							<td id="Moria305_28" class="a28"> </td>
+							<td id="Moria305_38" class="a38"> </td>
+							<td id="Moria305_48" class="a48"> </td>
+							<td id="Moria305_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+				</table>
+			</article>
+
+
+
+			<article id="Moria308">
+				<h2 class="major">모리아관308</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+														   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="Moria308_11" class="a11"> </td>
+							<td id="Moria308_21" class="a21"> </td>
+							<td id="Moria308_31" class="a31"> </td>
+							<td id="Moria308_41" class="a41"> </td>
+							<td id="Moria308_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="Moria308_12" class="a12"> </td>
+							<td id="Moria308_22" class="a22"> </td>
+							<td id="Moria308_32" class="a32"> </td>
+							<td id="Moria308_42" class="a42"> </td>
+							<td id="Moria308_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="Moria308_13" class="a13"> </td>
+							<td id="Moria308_23" class="a23"> </td>
+							<td id="Moria308_33" class="a33"> </td>
+							<td id="Moria308_43" class="a43"> </td>
+							<td id="Moria308_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="Moria308_14" class="a14"> </td>
+							<td id="Moria308_24" class="a24"> </td>
+							<td id="Moria308_34" class="a34"> </td>
+							<td id="Moria308_44" class="a44"> </td>
+							<td id="Moria308_45" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="Moria308_15" class="a15"> </td>
+							<td id="Moria308_25" class="a25"> </td>
+							<td id="Moria308_35" class="a35"> </td>
+							<td id="Moria308_45" class="a45"> </td>
+							<td id="Moria308_55" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="Moria308_16" class="a16"> </td>
+							<td id="Moria308_26" class="a26"> </td>
+							<td id="Moria308_36" class="a36"> </td>
+							<td id="Moria308_46" class="a46"> </td>
+							<td id="Moria308_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="Moria308_17" class="a17"> </td>
+							<td id="Moria308_27" class="a27"> </td>
+							<td id="Moria308_37" class="a37"> </td>
+							<td id="Moria308_47" class="a47"> </td>
+							<td id="Moria308_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="Moria308_18" class="a18"> </td>
+							<td id="Moria308_28" class="a28"> </td>
+							<td id="Moria308_38" class="a38"> </td>
+							<td id="Moria308_48" class="a48"> </td>
+							<td id="Moria308_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+				</table>
+			</article>
+
+			<article id="Moria310">
+				<h2 class="major">모리아관310</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+															   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="Moria310_11" class="a11"> </td>
+							<td id="Moria310_21" class="a21"> </td>
+							<td id="Moria310_31" class="a31"> </td>
+							<td id="Moria310_41" class="a41"> </td>
+							<td id="Moria310_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="Moria310_12" class="a12"> </td>
+							<td id="Moria310_22" class="a22"> </td>
+							<td id="Moria310_32" class="a32"> </td>
+							<td id="Moria310_42" class="a42"> </td>
+							<td id="Moria310_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="Moria310_13" class="a13"> </td>
+							<td id="Moria310_23" class="a23"> </td>
+							<td id="Moria310_33" class="a33"> </td>
+							<td id="Moria310_43" class="a43"> </td>
+							<td id="Moria310_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="Moria310_14" class="a14"> </td>
+							<td id="Moria310_24" class="a24"> </td>
+							<td id="Moria310_34" class="a34"> </td>
+							<td id="Moria310_44" class="a44"> </td>
+							<td id="Moria310_45" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="Moria310_15" class="a15"> </td>
+							<td id="Moria310_25" class="a25"> </td>
+							<td id="Moria310_35" class="a35"> </td>
+							<td id="Moria310_45" class="a45"> </td>
+							<td id="Moria310_55" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="Moria310_16" class="a16"> </td>
+							<td id="Moria310_26" class="a26"> </td>
+							<td id="Moria310_36" class="a36"> </td>
+							<td id="Moria310_46" class="a46"> </td>
+							<td id="Moria310_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="Moria310_17" class="a17"> </td>
+							<td id="Moria310_27" class="a27"> </td>
+							<td id="Moria310_37" class="a37"> </td>
+							<td id="Moria310_47" class="a47"> </td>
+							<td id="Moria310_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="Moria310_18" class="a18"> </td>
+							<td id="Moria310_28" class="a28"> </td>
+							<td id="Moria310_38" class="a38"> </td>
+							<td id="Moria310_48" class="a48"> </td>
+							<td id="Moria310_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+				</table>
+			</article>
+
+			<article id="Bokkeum301">
+				<h2 class="major">복음관301</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+																   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="Bokkeum301_11" class="a11"> </td>
+							<td id="Bokkeum301_21" class="a21"> </td>
+							<td id="Bokkeum301_31" class="a31"> </td>
+							<td id="Bokkeum301_41" class="a41"> </td>
+							<td id="Bokkeum301_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="Bokkeum301_12" class="a12"> </td>
+							<td id="Bokkeum301_22" class="a22"> </td>
+							<td id="Bokkeum301_32" class="a32"> </td>
+							<td id="Bokkeum301_42" class="a42"> </td>
+							<td id="Bokkeum301_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="Bokkeum301_13" class="a13"> </td>
+							<td id="Bokkeum301_23" class="a23"> </td>
+							<td id="Bokkeum301_33" class="a33"> </td>
+							<td id="Bokkeum301_43" class="a43"> </td>
+							<td id="Bokkeum301_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="Bokkeum301_14" class="a14"> </td>
+							<td id="Bokkeum301_24" class="a24"> </td>
+							<td id="Bokkeum301_34" class="a34"> </td>
+							<td id="Bokkeum301_44" class="a44"> </td>
+							<td id="Bokkeum301_45" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="Bokkeum301_15" class="a15"> </td>
+							<td id="Bokkeum301_25" class="a25"> </td>
+							<td id="Bokkeum301_35" class="a35"> </td>
+							<td id="Bokkeum301_45" class="a45"> </td>
+							<td id="Bokkeum301_54" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="Bokkeum301_16" class="a16"> </td>
+							<td id="Bokkeum301_26" class="a26"> </td>
+							<td id="Bokkeum301_36" class="a36"> </td>
+							<td id="Bokkeum301_46" class="a46"> </td>
+							<td id="Bokkeum301_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="Bokkeum301_17" class="a17"> </td>
+							<td id="Bokkeum301_27" class="a27"> </td>
+							<td id="Bokkeum301_37" class="a37"> </td>
+							<td id="Bokkeum301_47" class="a47"> </td>
+							<td id="Bokkeum301_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="Bokkeum301_18" class="a18"> </td>
+							<td id="Bokkeum301_28" class="a28"> </td>
+							<td id="Bokkeum301_38" class="a38"> </td>
+							<td id="Bokkeum301_48" class="a48"> </td>
+							<td id="Bokkeum301_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+				</table>
+			</article>
+
+			<article id="Bokkeum303">
+				<h2 class="major">복음관303</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+																	   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="Bokkeum303_11" class="a11"> </td>
+							<td id="Bokkeum303_21" class="a21"> </td>
+							<td id="Bokkeum303_31" class="a31"> </td>
+							<td id="Bokkeum303_41" class="a41"> </td>
+							<td id="Bokkeum303_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="Bokkeum303_12" class="a12"> </td>
+							<td id="Bokkeum303_22" class="a22"> </td>
+							<td id="Bokkeum303_32" class="a32"> </td>
+							<td id="Bokkeum303_42" class="a42"> </td>
+							<td id="Bokkeum303_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="Bokkeum303_13" class="a13"> </td>
+							<td id="Bokkeum303_23" class="a23"> </td>
+							<td id="Bokkeum303_33" class="a33"> </td>
+							<td id="Bokkeum303_43" class="a43"> </td>
+							<td id="Bokkeum303_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="Bokkeum303_14" class="a14"> </td>
+							<td id="Bokkeum303_24" class="a24"> </td>
+							<td id="Bokkeum303_34" class="a34"> </td>
+							<td id="Bokkeum303_44" class="a44"> </td>
+							<td id="Bokkeum303_45" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="Bokkeum303_15" class="a15"> </td>
+							<td id="Bokkeum303_25" class="a25"> </td>
+							<td id="Bokkeum303_35" class="a35"> </td>
+							<td id="Bokkeum303_45" class="a45"> </td>
+							<td id="Bokkeum303_55" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="Bokkeum303_16" class="a16"> </td>
+							<td id="Bokkeum303_26" class="a26"> </td>
+							<td id="Bokkeum303_36" class="a36"> </td>
+							<td id="Bokkeum303_46" class="a46"> </td>
+							<td id="Bokkeum303_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="Bokkeum303_17" class="a17"> </td>
+							<td id="Bokkeum303_27" class="a27"> </td>
+							<td id="Bokkeum303_37" class="a37"> </td>
+							<td id="Bokkeum303_47" class="a47"> </td>
+							<td id="Bokkeum303_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="Bokkeum303_18" class="a18"> </td>
+							<td id="Bokkeum303_28" class="a28"> </td>
+							<td id="Bokkeum303_38" class="a38"> </td>
+							<td id="Bokkeum303_48" class="a48"> </td>
+							<td id="Bokkeum303_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+				</table>
+			</article>
+
+			<article id="Bokkeum401">
+				<h2 class="major">복음관401</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+																		   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="Bokkeum401_11" class="a11"> </td>
+							<td id="Bokkeum401_21" class="a21"> </td>
+							<td id="Bokkeum401_31" class="a31"> </td>
+							<td id="Bokkeum401_41" class="a41"> </td>
+							<td id="Bokkeum401_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="Bokkeum401_12" class="a12"> </td>
+							<td id="Bokkeum401_22" class="a22"> </td>
+							<td id="Bokkeum401_32" class="a32"> </td>
+							<td id="Bokkeum401_42" class="a42"> </td>
+							<td id="Bokkeum401_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="Bokkeum401_13" class="a13"> </td>
+							<td id="Bokkeum401_23" class="a23"> </td>
+							<td id="Bokkeum401_33" class="a33"> </td>
+							<td id="Bokkeum401_43" class="a43"> </td>
+							<td id="Bokkeum401_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="Bokkeum401_14" class="a14"> </td>
+							<td id="Bokkeum401_24" class="a24"> </td>
+							<td id="Bokkeum401_34" class="a34"> </td>
+							<td id="Bokkeum401_44" class="a44"> </td>
+							<td id="Bokkeum401_54" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="Bokkeum401_15" class="a15"> </td>
+							<td id="Bokkeum401_25" class="a25"> </td>
+							<td id="Bokkeum401_35" class="a35"> </td>
+							<td id="Bokkeum401_45" class="a45"> </td>
+							<td id="Bokkeum401_55" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="Bokkeum401_16" class="a16"> </td>
+							<td id="Bokkeum401_26" class="a26"> </td>
+							<td id="Bokkeum401_36" class="a36"> </td>
+							<td id="Bokkeum401_46" class="a46"> </td>
+							<td id="Bokkeum401_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="Bokkeum401_17" class="a17"> </td>
+							<td id="Bokkeum401_27" class="a27"> </td>
+							<td id="Bokkeum401_37" class="a37"> </td>
+							<td id="Bokkeum401_47" class="a47"> </td>
+							<td id="Bokkeum401_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="Bokkeum401_18" class="a18"> </td>
+							<td id="Bokkeum401_28" class="a28"> </td>
+							<td id="Bokkeum401_38" class="a38"> </td>
+							<td id="Bokkeum401_48" class="a48"> </td>
+							<td id="Bokkeum401_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+				</table>
+			</article>
+
+
+			<article id="Bokkeum403">
+				<h2 class="major">복음관403</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+																			   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="Bokkeum403_11" class="a11"> </td>
+							<td id="Bokkeum403_21" class="a21"> </td>
+							<td id="Bokkeum403_31" class="a31"> </td>
+							<td id="Bokkeum403_41" class="a41"> </td>
+							<td id="Bokkeum403_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="Bokkeum403_12" class="a12"> </td>
+							<td id="Bokkeum403_22" class="a22"> </td>
+							<td id="Bokkeum403_32" class="a32"> </td>
+							<td id="Bokkeum403_42" class="a42"> </td>
+							<td id="Bokkeum403_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="Bokkeum403_13" class="a13"> </td>
+							<td id="Bokkeum403_23" class="a23"> </td>
+							<td id="Bokkeum403_33" class="a33"> </td>
+							<td id="Bokkeum403_43" class="a43"> </td>
+							<td id="Bokkeum403_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="Bokkeum403_14" class="a14"> </td>
+							<td id="Bokkeum403_24" class="a24"> </td>
+							<td id="Bokkeum403_34" class="a34"> </td>
+							<td id="Bokkeum403_44" class="a44"> </td>
+							<td id="Bokkeum403_45" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="Bokkeum403_15" class="a15"> </td>
+							<td id="Bokkeum403_25" class="a25"> </td>
+							<td id="Bokkeum403_35" class="a35"> </td>
+							<td id="Bokkeum403_45" class="a45"> </td>
+							<td id="Bokkeum403_55" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="Bokkeum403_16" class="a16"> </td>
+							<td id="Bokkeum403_26" class="a26"> </td>
+							<td id="Bokkeum403_36" class="a36"> </td>
+							<td id="Bokkeum403_46" class="a46"> </td>
+							<td id="Bokkeum403_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="Bokkeum403_17" class="a17"> </td>
+							<td id="Bokkeum403_27" class="a27"> </td>
+							<td id="Bokkeum403_37" class="a37"> </td>
+							<td id="Bokkeum403_47" class="a47"> </td>
+							<td id="Bokkeum403_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="Bokkeum403_18" class="a18"> </td>
+							<td id="Bokkeum403_28" class="a28"> </td>
+							<td id="Bokkeum403_38" class="a38"> </td>
+							<td id="Bokkeum403_48" class="a48"> </td>
+							<td id="Bokkeum403_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+				</table>
+			</article>
+
+			<article id="Bokkeum405">
+				<h2 class="major">복음관405</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+																				   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="Bokkeum405_11" class="a11"> </td>
+							<td id="Bokkeum405_21" class="a21"> </td>
+							<td id="Bokkeum405_31" class="a31"> </td>
+							<td id="Bokkeum405_41" class="a41"> </td>
+							<td id="Bokkeum405_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="Bokkeum405_12" class="a12"> </td>
+							<td id="Bokkeum405_22" class="a22"> </td>
+							<td id="Bokkeum405_32" class="a32"> </td>
+							<td id="Bokkeum405_42" class="a42"> </td>
+							<td id="Bokkeum405_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="Bokkeum405_13" class="a13"> </td>
+							<td id="Bokkeum405_23" class="a23"> </td>
+							<td id="Bokkeum405_33" class="a33"> </td>
+							<td id="Bokkeum405_43" class="a43"> </td>
+							<td id="Bokkeum405_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="Bokkeum405_14" class="a14"> </td>
+							<td id="Bokkeum405_24" class="a24"> </td>
+							<td id="Bokkeum405_34" class="a34"> </td>
+							<td id="Bokkeum405_44" class="a44"> </td>
+							<td id="Bokkeum405_45" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="Bokkeum405_15" class="a15"> </td>
+							<td id="Bokkeum405_25" class="a25"> </td>
+							<td id="Bokkeum405_35" class="a35"> </td>
+							<td id="Bokkeum405_45" class="a45"> </td>
+							<td id="Bokkeum405_55" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="Bokkeum405_16" class="a16"> </td>
+							<td id="Bokkeum405_26" class="a26"> </td>
+							<td id="Bokkeum405_36" class="a36"> </td>
+							<td id="Bokkeum405_46" class="a46"> </td>
+							<td id="Bokkeum405_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="Bokkeum405_17" class="a17"> </td>
+							<td id="Bokkeum405_27" class="a27"> </td>
+							<td id="Bokkeum405_37" class="a37"> </td>
+							<td id="Bokkeum405_47" class="a47"> </td>
+							<td id="Bokkeum405_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="Bokkeum405_18" class="a18"> </td>
+							<td id="Bokkeum405_28" class="a28"> </td>
+							<td id="Bokkeum405_38" class="a38"> </td>
+							<td id="Bokkeum405_48" class="a48"> </td>
+							<td id="Bokkeum405_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+				</table>
+			</article>
+
+
+			<article id="Bokkeum407">
+				<h2 class="major">복음관407</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+																					   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="Bokkeum407_11" class="a11"> </td>
+							<td id="Bokkeum407_21" class="a21"> </td>
+							<td id="Bokkeum407_31" class="a31"> </td>
+							<td id="Bokkeum407_41" class="a41"> </td>
+							<td id="Bokkeum407_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="Bokkeum407_12" class="a12"> </td>
+							<td id="Bokkeum407_22" class="a22"> </td>
+							<td id="Bokkeum407_32" class="a32"> </td>
+							<td id="Bokkeum407_42" class="a42"> </td>
+							<td id="Bokkeum407_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="Bokkeum407_13" class="a13"> </td>
+							<td id="Bokkeum407_23" class="a23"> </td>
+							<td id="Bokkeum407_33" class="a33"> </td>
+							<td id="Bokkeum407_43" class="a43"> </td>
+							<td id="Bokkeum407_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="Bokkeum407_14" class="a14"> </td>
+							<td id="Bokkeum407_24" class="a24"> </td>
+							<td id="Bokkeum407_34" class="a34"> </td>
+							<td id="Bokkeum407_44" class="a44"> </td>
+							<td id="Bokkeum407_45" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="Bokkeum407_15" class="a15"> </td>
+							<td id="Bokkeum407_25" class="a25"> </td>
+							<td id="Bokkeum407_35" class="a35"> </td>
+							<td id="Bokkeum407_45" class="a45"> </td>
+							<td id="Bokkeum407_55" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="Bokkeum407_16" class="a16"> </td>
+							<td id="Bokkeum407_26" class="a26"> </td>
+							<td id="Bokkeum407_36" class="a36"> </td>
+							<td id="Bokkeum407_46" class="a46"> </td>
+							<td id="Bokkeum407_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="Bokkeum407_17" class="a17"> </td>
+							<td id="Bokkeum407_27" class="a27"> </td>
+							<td id="Bokkeum407_37" class="a37"> </td>
+							<td id="Bokkeum407_47" class="a47"> </td>
+							<td id="Bokkeum407_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="Bokkeum407_18" class="a18"> </td>
+							<td id="Bokkeum407_28" class="a28"> </td>
+							<td id="Bokkeum407_38" class="a38"> </td>
+							<td id="Bokkeum407_48" class="a48"> </td>
+							<td id="Bokkeum407_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+				</table>
+			</article>
+
+
+			<article id="Bokkeum409">
+				<h2 class="major">복음관409</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+																						   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="Bokkeum409_11" class="a11"> </td>
+							<td id="Bokkeum409_21" class="a21"> </td>
+							<td id="Bokkeum409_31" class="a31"> </td>
+							<td id="Bokkeum409_41" class="a41"> </td>
+							<td id="Bokkeum409_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="Bokkeum409_12" class="a12"> </td>
+							<td id="Bokkeum409_22" class="a22"> </td>
+							<td id="Bokkeum409_32" class="a32"> </td>
+							<td id="Bokkeum409_42" class="a42"> </td>
+							<td id="Bokkeum409_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="Bokkeum409_13" class="a13"> </td>
+							<td id="Bokkeum409_23" class="a23"> </td>
+							<td id="Bokkeum409_33" class="a33"> </td>
+							<td id="Bokkeum409_43" class="a43"> </td>
+							<td id="Bokkeum409_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="Bokkeum409_14" class="a14"> </td>
+							<td id="Bokkeum409_24" class="a24"> </td>
+							<td id="Bokkeum409_34" class="a34"> </td>
+							<td id="Bokkeum409_44" class="a44"> </td>
+							<td id="Bokkeum409_45" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="Bokkeum409_15" class="a15"> </td>
+							<td id="Bokkeum409_25" class="a25"> </td>
+							<td id="Bokkeum409_35" class="a35"> </td>
+							<td id="Bokkeum409_45" class="a45"> </td>
+							<td id="Bokkeum409_55" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="Bokkeum401_16" class="a16"> </td>
+							<td id="Bokkeum401_26" class="a26"> </td>
+							<td id="Bokkeum401_36" class="a36"> </td>
+							<td id="Bokkeum401_46" class="a46"> </td>
+							<td id="Bokkeum401_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="Bokkeum409_17" class="a17"> </td>
+							<td id="Bokkeum409_27" class="a27"> </td>
+							<td id="Bokkeum409_37" class="a37"> </td>
+							<td id="Bokkeum409_47" class="a47"> </td>
+							<td id="Bokkeum409_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="Bokkeum409_18" class="a18"> </td>
+							<td id="Bokkeum409_28" class="a28"> </td>
+							<td id="Bokkeum409_38" class="a38"> </td>
+							<td id="Bokkeum409_48" class="a48"> </td>
+							<td id="Bokkeum409_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+				</table>
+			</article>
+
+
+			<article id="IllipBasicSNLab1">
+				<h2 class="major">기본간호실습실1</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+																							   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="IllipBasicSNLab1_11" class="a11"> </td>
+							<td id="IllipBasicSNLab1_21" class="a21"> </td>
+							<td id="IllipBasicSNLab1_31" class="a31"> </td>
+							<td id="IllipBasicSNLab1_41" class="a41"> </td>
+							<td id="IllipBasicSNLab1_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="IllipBasicSNLab1_12" class="a12"> </td>
+							<td id="IllipBasicSNLab1_22" class="a22"> </td>
+							<td id="IllipBasicSNLab1_32" class="a32"> </td>
+							<td id="IllipBasicSNLab1_42" class="a42"> </td>
+							<td id="IllipBasicSNLab1_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="IllipBasicSNLab1_13" class="a13"> </td>
+							<td id="IllipBasicSNLab1_23" class="a23"> </td>
+							<td id="IllipBasicSNLab1_33" class="a33"> </td>
+							<td id="IllipBasicSNLab1_43" class="a43"> </td>
+							<td id="IllipBasicSNLab1_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="IllipBasicSNLab1_14" class="a14"> </td>
+							<td id="IllipBasicSNLab1_24" class="a24"> </td>
+							<td id="IllipBasicSNLab1_34" class="a34"> </td>
+							<td id="IllipBasicSNLab1_44" class="a44"> </td>
+							<td id="IllipBasicSNLab1_45" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="IllipBasicSNLab1_15" class="a15"> </td>
+							<td id="IllipBasicSNLab1_25" class="a25"> </td>
+							<td id="IllipBasicSNLab1_35" class="a35"> </td>
+							<td id="IllipBasicSNLab1_45" class="a45"> </td>
+							<td id="IllipBasicSNLab1_55" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="IllipBasicSNLab1_16" class="a16"> </td>
+							<td id="IllipBasicSNLab1_26" class="a26"> </td>
+							<td id="IllipBasicSNLab1_36" class="a36"> </td>
+							<td id="IllipBasicSNLab1_46" class="a46"> </td>
+							<td id="IllipBasicSNLab1_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="IllipBasicSNLab1_17" class="a17"> </td>
+							<td id="IllipBasicSNLab1_27" class="a27"> </td>
+							<td id="IllipBasicSNLab1_37" class="a37"> </td>
+							<td id="IllipBasicSNLab1_47" class="a47"> </td>
+							<td id="IllipBasicSNLab1_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="IllipBasicSNLab1_18" class="a18"> </td>
+							<td id="IllipBasicSNLab1_28" class="a28"> </td>
+							<td id="IllipBasicSNLab1_38" class="a38"> </td>
+							<td id="IllipBasicSNLab1_48" class="a48"> </td>
+							<td id="IllipBasicSNLab1_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+				</table>
+			</article>
+
+
+			<article id="IllipBasicSNLab2">
+				<h2 class="major">기본간호실습실2</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+																								   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="IllipBasicSNLab2_11" class="a11"> </td>
+							<td id="IllipBasicSNLab2_21" class="a21"> </td>
+							<td id="IllipBasicSNLab2_31" class="a31"> </td>
+							<td id="IllipBasicSNLab2_41" class="a41"> </td>
+							<td id="IllipBasicSNLab2_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="IllipBasicSNLab2_12" class="a12"> </td>
+							<td id="IllipBasicSNLab2_22" class="a22"> </td>
+							<td id="IllipBasicSNLab2_32" class="a32"> </td>
+							<td id="IllipBasicSNLab2_42" class="a42"> </td>
+							<td id="IllipBasicSNLab2_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="IllipBasicSNLab2_13" class="a13"> </td>
+							<td id="IllipBasicSNLab2_23" class="a23"> </td>
+							<td id="IllipBasicSNLab2_33" class="a33"> </td>
+							<td id="IllipBasicSNLab2_43" class="a43"> </td>
+							<td id="IllipBasicSNLab2_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="IllipBasicSNLab2_14" class="a14"> </td>
+							<td id="IllipBasicSNLab2_24" class="a24"> </td>
+							<td id="IllipBasicSNLab2_34" class="a34"> </td>
+							<td id="IllipBasicSNLab2_44" class="a44"> </td>
+							<td id="IllipBasicSNLab2_45" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="IllipBasicSNLab2_15" class="a15"> </td>
+							<td id="IllipBasicSNLab2_25" class="a25"> </td>
+							<td id="IllipBasicSNLab2_35" class="a35"> </td>
+							<td id="IllipBasicSNLab2_45" class="a45"> </td>
+							<td id="IllipBasicSNLab2_55" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="IllipBasicSNLab2_16" class="a16"> </td>
+							<td id="IllipBasicSNLab2_26" class="a26"> </td>
+							<td id="IllipBasicSNLab2_36" class="a36"> </td>
+							<td id="IllipBasicSNLab2_46" class="a46"> </td>
+							<td id="IllipBasicSNLab2_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="IllipBasicSNLab2_17" class="a17"> </td>
+							<td id="IllipBasicSNLab2_27" class="a27"> </td>
+							<td id="IllipBasicSNLab2_37" class="a37"> </td>
+							<td id="IllipBasicSNLab2_47" class="a47"> </td>
+							<td id="IllipBasicSNLab2_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="IllipBasicSNLab2_18" class="a18"> </td>
+							<td id="IllipBasicSNLab2_28" class="a28"> </td>
+							<td id="IllipBasicSNLab2_38" class="a38"> </td>
+							<td id="IllipBasicSNLab2_48" class="a48"> </td>
+							<td id="IllipBasicSNLab2_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+				</table>
+			</article>
+
+
+			<article id="IllipEduLab">
+				<h2 class="major">보육실습실</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+																									   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="IllipEduLab_11" class="a11"> </td>
+							<td id="IllipEduLab_21" class="a21"> </td>
+							<td id="IllipEduLab_31" class="a31"> </td>
+							<td id="IllipEduLab_41" class="a41"> </td>
+							<td id="IllipEduLab_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="IllipEduLab_12" class="a12"> </td>
+							<td id="IllipEduLab_22" class="a22"> </td>
+							<td id="IllipEduLab_32" class="a32"> </td>
+							<td id="IllipEduLab_42" class="a42"> </td>
+							<td id="IllipEduLab_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="IllipEduLab_13" class="a13"> </td>
+							<td id="IllipEduLab_23" class="a23"> </td>
+							<td id="IllipEduLab_33" class="a33"> </td>
+							<td id="IllipEduLab_43" class="a43"> </td>
+							<td id="IllipEduLab_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="IllipEduLab_14" class="a14"> </td>
+							<td id="IllipEduLab_24" class="a24"> </td>
+							<td id="IllipEduLab_34" class="a34"> </td>
+							<td id="IllipEduLab_44" class="a44"> </td>
+							<td id="IllipEduLab_45" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="IllipEduLab_15" class="a15"> </td>
+							<td id="IllipEduLab_25" class="a25"> </td>
+							<td id="IllipEduLab_35" class="a35"> </td>
+							<td id="IllipEduLab_45" class="a45"> </td>
+							<td id="IllipEduLab_55" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="IllipEduLab_16" class="a16"> </td>
+							<td id="IllipEduLab_26" class="a26"> </td>
+							<td id="IllipEduLab_36" class="a36"> </td>
+							<td id="IllipEduLab_46" class="a46"> </td>
+							<td id="IllipEduLab_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="IllipEduLab_17" class="a17"> </td>
+							<td id="IllipEduLab_27" class="a27"> </td>
+							<td id="IllipEduLab_37" class="a37"> </td>
+							<td id="IllipEduLab_47" class="a47"> </td>
+							<td id="IllipEduLab_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="IllipEduLab_18" class="a18"> </td>
+							<td id="IllipEduLab_28" class="a28"> </td>
+							<td id="IllipEduLab_38" class="a38"> </td>
+							<td id="IllipEduLab_48" class="a48"> </td>
+							<td id="IllipEduLab_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+				</table>
+			</article>
+
+
+			<article id="IllipBehavAnalysisLab">
+				<h2 class="major">수업행동분석실</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+																										   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="IllipBehavAnalysisLab_11" class="a11"> </td>
+							<td id="IllipBehavAnalysisLab_21" class="a21"> </td>
+							<td id="IllipBehavAnalysisLab_31" class="a31"> </td>
+							<td id="IllipBehavAnalysisLab_41" class="a41"> </td>
+							<td id="IllipBehavAnalysisLab_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="IllipBehavAnalysisLab_12" class="a12"> </td>
+							<td id="IllipBehavAnalysisLab_22" class="a22"> </td>
+							<td id="IllipBehavAnalysisLab_32" class="a32"> </td>
+							<td id="IllipBehavAnalysisLab_42" class="a42"> </td>
+							<td id="IllipBehavAnalysisLab_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="IllipBehavAnalysisLab_13" class="a13"> </td>
+							<td id="IllipBehavAnalysisLab_23" class="a23"> </td>
+							<td id="IllipBehavAnalysisLab_33" class="a33"> </td>
+							<td id="IllipBehavAnalysisLab_43" class="a43"> </td>
+							<td id="IllipBehavAnalysisLab_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="IllipBehavAnalysisLab_14" class="a14"> </td>
+							<td id="IllipBehavAnalysisLab_24" class="a24"> </td>
+							<td id="IllipBehavAnalysisLab_34" class="a34"> </td>
+							<td id="IllipBehavAnalysisLab_44" class="a44"> </td>
+							<td id="IllipBehavAnalysisLab_45" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="IllipBehavAnalysisLab_15" class="a15"> </td>
+							<td id="IllipBehavAnalysisLab_25" class="a25"> </td>
+							<td id="IllipBehavAnalysisLab_35" class="a35"> </td>
+							<td id="IllipBehavAnalysisLab_45" class="a45"> </td>
+							<td id="IllipBehavAnalysisLab_55" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="IllipBehavAnalysisLab_16" class="a16"> </td>
+							<td id="IllipBehavAnalysisLab_26" class="a26"> </td>
+							<td id="IllipBehavAnalysisLab_36" class="a36"> </td>
+							<td id="IllipBehavAnalysisLab_46" class="a46"> </td>
+							<td id="IllipBehavAnalysisLab_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="IllipBehavAnalysisLab_17" class="a17"> </td>
+							<td id="IllipBehavAnalysisLab_27" class="a27"> </td>
+							<td id="IllipBehavAnalysisLab_37" class="a37"> </td>
+							<td id="IllipBehavAnalysisLab_47" class="a47"> </td>
+							<td id="IllipBehavAnalysisLab_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="IllipBehavAnalysisLab_18" class="a18"> </td>
+							<td id="IllipBehavAnalysisLab_28" class="a28"> </td>
+							<td id="IllipBehavAnalysisLab_38" class="a38"> </td>
+							<td id="IllipBehavAnalysisLab_48" class="a48"> </td>
+							<td id="IllipBehavAnalysisLab_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+				</table>
+			</article>
+
+
+			<article id="Illip405">
+				<h2 class="major">일립관405</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+																											   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="Illip405_11" class="a11"> </td>
+							<td id="Illip405_21" class="a21"> </td>
+							<td id="Illip405_31" class="a31"> </td>
+							<td id="Illip405_41" class="a41"> </td>
+							<td id="Illip405_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="Illip405_12" class="a12"> </td>
+							<td id="Illip405_22" class="a22"> </td>
+							<td id="Illip405_32" class="a32"> </td>
+							<td id="Illip405_42" class="a42"> </td>
+							<td id="Illip405_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="Illip405_13" class="a13"> </td>
+							<td id="Illip405_23" class="a23"> </td>
+							<td id="Illip405_33" class="a33"> </td>
+							<td id="Illip405_43" class="a43"> </td>
+							<td id="Illip405_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="Illip405_14" class="a14"> </td>
+							<td id="Illip405_24" class="a24"> </td>
+							<td id="Illip405_34" class="a34"> </td>
+							<td id="Illip405_44" class="a44"> </td>
+							<td id="Illip405_45" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="Illip405_15" class="a15"> </td>
+							<td id="Illip405_25" class="a25"> </td>
+							<td id="Illip405_35" class="a35"> </td>
+							<td id="Illip405_45" class="a45"> </td>
+							<td id="Illip405_55" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="Illip405_16" class="a16"> </td>
+							<td id="Illip405_26" class="a26"> </td>
+							<td id="Illip405_36" class="a36"> </td>
+							<td id="Illip405_46" class="a46"> </td>
+							<td id="Illip405_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="Illip405_17" class="a17"> </td>
+							<td id="Illip405_27" class="a27"> </td>
+							<td id="Illip405_37" class="a37"> </td>
+							<td id="Illip405_47" class="a47"> </td>
+							<td id="Illip405_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="Illip405_18" class="a18"> </td>
+							<td id="Illip405_28" class="a28"> </td>
+							<td id="Illip405_38" class="a38"> </td>
+							<td id="Illip405_48" class="a48"> </td>
+							<td id="Illip405_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+				</table>
+			</article>
+
+			<article id="Illip501">
+				<h2 class="major">일립관501</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+																												   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="Illip501_11" class="a11"> </td>
+							<td id="Illip501_21" class="a21"> </td>
+							<td id="Illip501_31" class="a31"> </td>
+							<td id="Illip501_41" class="a41"> </td>
+							<td id="Illip501_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="Illip501_12" class="a12"> </td>
+							<td id="Illip501_22" class="a22"> </td>
+							<td id="Illip501_32" class="a32"> </td>
+							<td id="Illip501_42" class="a42"> </td>
+							<td id="Illip501_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="Illip501_13" class="a13"> </td>
+							<td id="Illip501_23" class="a23"> </td>
+							<td id="Illip501_33" class="a33"> </td>
+							<td id="Illip501_43" class="a43"> </td>
+							<td id="Illip501_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="Illip501_14" class="a14"> </td>
+							<td id="Illip501_24" class="a24"> </td>
+							<td id="Illip501_34" class="a34"> </td>
+							<td id="Illip501_44" class="a44"> </td>
+							<td id="Illip501_54" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="Illip501_15" class="a15"> </td>
+							<td id="Illip501_25" class="a25"> </td>
+							<td id="Illip501_35" class="a35"> </td>
+							<td id="Illip501_45" class="a45"> </td>
+							<td id="Illip501_55" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="Illip501_16" class="a16"> </td>
+							<td id="Illip501_26" class="a26"> </td>
+							<td id="Illip501_36" class="a36"> </td>
+							<td id="Illip501_46" class="a46"> </td>
+							<td id="Illip501_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="Illip501_17" class="a17"> </td>
+							<td id="Illip501_27" class="a27"> </td>
+							<td id="Illip501_37" class="a37"> </td>
+							<td id="Illip501_47" class="a47"> </td>
+							<td id="Illip501_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="Illip501_18" class="a18"> </td>
+							<td id="Illip501_28" class="a28"> </td>
+							<td id="Illip501_38" class="a38"> </td>
+							<td id="Illip501_48" class="a48"> </td>
+							<td id="Illip501_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+				</table>
+			</article>
+
+
+			<article id="Illip503">
+				<h2 class="major">일립관503</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+																													   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="Illip503_11" class="a11"> </td>
+							<td id="Illip503_21" class="a21"> </td>
+							<td id="Illip503_31" class="a31"> </td>
+							<td id="Illip503_41" class="a41"> </td>
+							<td id="Illip503_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="Illip503_12" class="a12"> </td>
+							<td id="Illip503_22" class="a22"> </td>
+							<td id="Illip503_32" class="a32"> </td>
+							<td id="Illip503_42" class="a42"> </td>
+							<td id="Illip503_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="Illip503_13" class="a13"> </td>
+							<td id="Illip503_23" class="a23"> </td>
+							<td id="Illip503_33" class="a33"> </td>
+							<td id="Illip503_43" class="a43"> </td>
+							<td id="Illip503_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="Illip503_14" class="a14"> </td>
+							<td id="Illip503_24" class="a24"> </td>
+							<td id="Illip503_34" class="a34"> </td>
+							<td id="Illip503_44" class="a44"> </td>
+							<td id="Illip503_45" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="Illip503_15" class="a15"> </td>
+							<td id="Illip503_25" class="a25"> </td>
+							<td id="Illip503_35" class="a35"> </td>
+							<td id="Illip503_45" class="a45"> </td>
+							<td id="Illip503_55" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="Illip503_16" class="a16"> </td>
+							<td id="Illip503_26" class="a26"> </td>
+							<td id="Illip503_36" class="a36"> </td>
+							<td id="Illip503_46" class="a46"> </td>
+							<td id="Illip503_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="Illip503_17" class="a17"> </td>
+							<td id="Illip503_27" class="a27"> </td>
+							<td id="Illip503_37" class="a37"> </td>
+							<td id="Illip503_47" class="a47"> </td>
+							<td id="Illip503_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="Illip503_18" class="a18"> </td>
+							<td id="Illip503_28" class="a28"> </td>
+							<td id="Illip503_38" class="a38"> </td>
+							<td id="Illip503_48" class="a48"> </td>
+							<td id="Illip503_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+				</table>
+			</article>
+
+			<article id="Illip505">
+				<h2 class="major">일립관505</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+																														   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="Illip505_11" class="a11"> </td>
+							<td id="Illip505_21" class="a21"> </td>
+							<td id="Illip505_31" class="a31"> </td>
+							<td id="Illip505_41" class="a41"> </td>
+							<td id="Illip505_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="Illip505_12" class="a12"> </td>
+							<td id="Illip505_22" class="a22"> </td>
+							<td id="Illip505_32" class="a32"> </td>
+							<td id="Illip505_42" class="a42"> </td>
+							<td id="Illip505_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="Illip505_13" class="a13"> </td>
+							<td id="Illip505_23" class="a23"> </td>
+							<td id="Illip505_33" class="a33"> </td>
+							<td id="Illip505_43" class="a43"> </td>
+							<td id="Illip505_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="Illip505_14" class="a14"> </td>
+							<td id="Illip505_24" class="a24"> </td>
+							<td id="Illip505_34" class="a34"> </td>
+							<td id="Illip505_44" class="a44"> </td>
+							<td id="Illip505_45" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="Illip505_15" class="a15"> </td>
+							<td id="Illip505_25" class="a25"> </td>
+							<td id="Illip505_35" class="a35"> </td>
+							<td id="Illip505_45" class="a45"> </td>
+							<td id="Illip505_55" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="Illip505_16" class="a16"> </td>
+							<td id="Illip505_26" class="a26"> </td>
+							<td id="Illip505_36" class="a36"> </td>
+							<td id="Illip505_46" class="a46"> </td>
+							<td id="Illip505_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="Illip505_17" class="a17"> </td>
+							<td id="Illip505_27" class="a27"> </td>
+							<td id="Illip505_37" class="a37"> </td>
+							<td id="Illip505_47" class="a47"> </td>
+							<td id="Illip505_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="Illip505_18" class="a18"> </td>
+							<td id="Illip505_28" class="a28"> </td>
+							<td id="Illip505_38" class="a38"> </td>
+							<td id="Illip505_48" class="a48"> </td>
+							<td id="Illip505_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+				</table>
+			</article>
+
+
+			<article id="Illip507">
+				<h2 class="major">일립관507</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+																															   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="Illip507_11" class="a11"> </td>
+							<td id="Illip507_21" class="a21"> </td>
+							<td id="Illip507_31" class="a31"> </td>
+							<td id="Illip507_41" class="a41"> </td>
+							<td id="Illip507_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="Illip507_12" class="a12"> </td>
+							<td id="Illip507_22" class="a22"> </td>
+							<td id="Illip507_32" class="a32"> </td>
+							<td id="Illip507_42" class="a42"> </td>
+							<td id="Illip507_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="Illip507_13" class="a13"> </td>
+							<td id="Illip507_23" class="a23"> </td>
+							<td id="Illip507_33" class="a33"> </td>
+							<td id="Illip507_43" class="a43"> </td>
+							<td id="Illip507_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="Illip507_14" class="a14"> </td>
+							<td id="Illip507_24" class="a24"> </td>
+							<td id="Illip507_34" class="a34"> </td>
+							<td id="Illip507_44" class="a44"> </td>
+							<td id="Illip507_45" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="Illip507_15" class="a15"> </td>
+							<td id="Illip507_25" class="a25"> </td>
+							<td id="Illip507_35" class="a35"> </td>
+							<td id="Illip507_45" class="a45"> </td>
+							<td id="Illip507_55" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="Illip507_16" class="a16"> </td>
+							<td id="Illip507_26" class="a26"> </td>
+							<td id="Illip507_36" class="a36"> </td>
+							<td id="Illip507_46" class="a46"> </td>
+							<td id="Illip507_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="Illip507_17" class="a17"> </td>
+							<td id="Illip507_27" class="a27"> </td>
+							<td id="Illip507_37" class="a37"> </td>
+							<td id="Illip507_47" class="a47"> </td>
+							<td id="Illip507_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="Illip507_18" class="a18"> </td>
+							<td id="Illip507_28" class="a28"> </td>
+							<td id="Illip507_38" class="a38"> </td>
+							<td id="Illip507_48" class="a48"> </td>
+							<td id="Illip507_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+				</table>
+			</article>
+
+
+			<article id="Illip509">
+				<h2 class="major">일립관509</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+																																   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="Illip509_11" class="a11"> </td>
+							<td id="Illip509_21" class="a21"> </td>
+							<td id="Illip509_31" class="a31"> </td>
+							<td id="Illip509_41" class="a41"> </td>
+							<td id="Illip509_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="Illip509_12" class="a12"> </td>
+							<td id="Illip509_22" class="a22"> </td>
+							<td id="Illip509_32" class="a32"> </td>
+							<td id="Illip509_42" class="a42"> </td>
+							<td id="Illip509_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="Illip509_13" class="a13"> </td>
+							<td id="Illip509_23" class="a23"> </td>
+							<td id="Illip509_33" class="a33"> </td>
+							<td id="Illip509_43" class="a43"> </td>
+							<td id="Illip509_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="Illip509_14" class="a14"> </td>
+							<td id="Illip509_24" class="a24"> </td>
+							<td id="Illip509_34" class="a34"> </td>
+							<td id="Illip509_44" class="a44"> </td>
+							<td id="Illip509_45" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="Illip509_15" class="a15"> </td>
+							<td id="Illip509_25" class="a25"> </td>
+							<td id="Illip509_35" class="a35"> </td>
+							<td id="Illip509_45" class="a45"> </td>
+							<td id="Illip509_55" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="Illip509_16" class="a16"> </td>
+							<td id="Illip509_26" class="a26"> </td>
+							<td id="Illip509_36" class="a36"> </td>
+							<td id="Illip509_46" class="a46"> </td>
+							<td id="Illip509_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="Illip509_17" class="a17"> </td>
+							<td id="Illip509_27" class="a27"> </td>
+							<td id="Illip509_37" class="a37"> </td>
+							<td id="Illip509_47" class="a47"> </td>
+							<td id="Illip509_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="Illip509_18" class="a18"> </td>
+							<td id="Illip509_28" class="a28"> </td>
+							<td id="Illip509_38" class="a38"> </td>
+							<td id="Illip509_48" class="a48"> </td>
+							<td id="Illip509_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+				</table>
+			</article>
+
+			<article id="MiralChall">
+				<h2 class="major">천마홀</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+																																	   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="MiralChall_11" class="a11"> </td>
+							<td id="MiralChall_21" class="a21"> </td>
+							<td id="MiralChall_31" class="a31"> </td>
+							<td id="MiralChall_41" class="a41"> </td>
+							<td id="MiralChall_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="MiralChall_12" class="a12"> </td>
+							<td id="MiralChall_22" class="a22"> </td>
+							<td id="MiralChall_32" class="a32"> </td>
+							<td id="MiralChall_42" class="a42"> </td>
+							<td id="MiralChall_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="MiralChall_13" class="a13"> </td>
+							<td id="MiralChall_23" class="a23"> </td>
+							<td id="MiralChall_33" class="a33"> </td>
+							<td id="MiralChall_43" class="a43"> </td>
+							<td id="MiralChall_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="MiralChall_14" class="a14"> </td>
+							<td id="MiralChall_24" class="a24"> </td>
+							<td id="MiralChall_34" class="a34"> </td>
+							<td id="MiralChall_44" class="a44"> </td>
+							<td id="MiralChall_45" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="MiralChall_15" class="a15"> </td>
+							<td id="MiralChall_25" class="a25"> </td>
+							<td id="MiralChall_35" class="a35"> </td>
+							<td id="MiralChall_45" class="a45"> </td>
+							<td id="MiralChall_55" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="MiralChall_16" class="a16"> </td>
+							<td id="MiralChall_26" class="a26"> </td>
+							<td id="MiralChall_36" class="a36"> </td>
+							<td id="MiralChall_46" class="a46"> </td>
+							<td id="MiralChall_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="MiralChall_17" class="a17"> </td>
+							<td id="MiralChall_27" class="a27"> </td>
+							<td id="MiralChall_37" class="a37"> </td>
+							<td id="MiralChall_47" class="a47"> </td>
+							<td id="MiralChall_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="MiralChall_18" class="a18"> </td>
+							<td id="MiralChall_28" class="a28"> </td>
+							<td id="MiralChall_38" class="a38"> </td>
+							<td id="MiralChall_48" class="a48"> </td>
+							<td id="MiralChall_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+				</table>
+			</article>
+
+
+			<article id="MiralLogos">
+				<h2 class="major">로고스홀</h2>
+				<style type="text/css">
+					.tg {
+						border-collapse: collapse;
+						border-spacing: 0;
+					}
+
+					.tg td {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg th {
+						border-color: black;
+						border-style: solid;
+						border-width: 1px;
+						font-family: Arial, sans-serif;
+						font-size: 14px;
+						font-weight: normal;
+						overflow: hidden;
+						padding: 10px 5px;
+						word-break: normal;
+					}
+
+					.tg .Illip501 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip503 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip505 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip507 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip509 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .Illip405 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab1 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBasicSNLab2 {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipBehavAnalysisLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					.tg .IllipEduLab {
+						border-color: #ffffff;
+						text-align: left;
+						vertical-align: top
+					}
+
+					/*.tg .Illipfloor{background-color:#cd9934;border-color:#ffffff;text-align:left;vertical-align:top}
+																																		   */
+				</style>
+				<table class="tg">
+					<thead>
+						<tr>
+							<th class="Illipfloor1">교시</th>
+							<th class="Month">월</th>
+							<th class="Tuesday">화</th>
+							<th class="Wednesday">수</th>
+							<th class="Thursday">목</th>
+							<th class="Friday">금</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="class1">1교시</td>
+							<td id="MiralLogos_11" class="a11"> </td>
+							<td id="MiralLogos_21" class="a21"> </td>
+							<td id="MiralLogos_31" class="a31"> </td>
+							<td id="MiralLogos_41" class="a41"> </td>
+							<td id="MiralLogos_51" class="a51"> </td>
+						</tr>
+						<tr>
+							<td class="class2">2교시</td>
+							<td id="MiralLogos_12" class="a12"> </td>
+							<td id="MiralLogos_22" class="a22"> </td>
+							<td id="MiralLogos_32" class="a32"> </td>
+							<td id="MiralLogos_42" class="a42"> </td>
+							<td id="MiralLogos_52" class="a52"> </td>
+
+						</tr>
+						<tr>
+							<td class="class3">3교시</td>
+							<td id="MiralLogos_13" class="a13"> </td>
+							<td id="MiralLogos_23" class="a23"> </td>
+							<td id="MiralLogos_33" class="a33"> </td>
+							<td id="MiralLogos_43" class="a43"> </td>
+							<td id="MiralLogos_53" class="a53"> </td>
+						</tr>
+						<tr>
+							<td class="class4">4교시</td>
+							<td id="MiralLogos_14" class="a14"> </td>
+							<td id="MiralLogos_24" class="a24"> </td>
+							<td id="MiralLogos_34" class="a34"> </td>
+							<td id="MiralLogos_44" class="a44"> </td>
+							<td id="MiralLogos_45" class="a54"> </td>
+						</tr>
+						<tr>
+							<td class="class5">5교시</td>
+							<td id="MiralLogos_15" class="a15"> </td>
+							<td id="MiralLogos_25" class="a25"> </td>
+							<td id="MiralLogos_35" class="a35"> </td>
+							<td id="MiralLogos_45" class="a45"> </td>
+							<td id="MiralLogos_55" class="a55"> </td>
+						</tr>
+						<tr>
+							<td class="class6">6교시</td>
+							<td id="MiralLogos_16" class="a16"> </td>
+							<td id="MiralLogos_26" class="a26"> </td>
+							<td id="MiralLogos_36" class="a36"> </td>
+							<td id="MiralLogos_46" class="a46"> </td>
+							<td id="MiralLogos_56" class="a56"> </td>
+						</tr>
+						<tr>
+							<td class="class7">7교시</td>
+							<td id="MiralLogos_17" class="a17"> </td>
+							<td id="MiralLogos_27" class="a27"> </td>
+							<td id="MiralLogos_37" class="a37"> </td>
+							<td id="MiralLogos_47" class="a47"> </td>
+							<td id="MiralLogos_57" class="a57"> </td>
+
+						</tr>
+						<tr>
+							<td class="class8">8교시</td>
+							<td id="MiralLogos_18" class="a18"> </td>
+							<td id="MiralLogos_28" class="a28"> </td>
+							<td id="MiralLogos_38" class="a38"> </td>
+							<td id="MiralLogos_48" class="a48"> </td>
+							<td id="MiralLogos_58" class="a58"> </td>
+
+						</tr>
+					</tbody>
+				</table>
+			</article>
+			<!-- elements -->
+			<article id="elements">
+				<h2 class="major">Elements</h2>
+
+				<section>
+					<h3 class="major">Text</h3>
+					<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is
+						<em>emphasized</em>.
+						This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+						This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a
+							href="#">this is a link</a>.</p>
+					<hr />
+					<h2>Heading Level 2</h2>
+					<h3>Heading Level 3</h3>
+					<h4>Heading Level 4</h4>
+					<h5>Heading Level 5</h5>
+					<h6>Heading Level 6</h6>
+					<hr />
+					<h4>Blockquote</h4>
+					<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus
+						euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis
+						iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem
+						ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+					<h4>Preformatted</h4>
+					<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+				</section>
+
+				<section>
+					<h3 class="major">Lists</h3>
+
+					<h4>Unordered</h4>
+					<ul>
+						<li>Dolor pulvinar etiam.</li>
+						<li>Sagittis adipiscing.</li>
+						<li>Felis enim feugiat.</li>
+					</ul>
+
+					<h4>Alternate</h4>
+					<ul class="alt">
+						<li>Dolor pulvinar etiam.</li>
+						<li>Sagittis adipiscing.</li>
+						<li>Felis enim feugiat.</li>
+					</ul>
+
+					<h4>Ordered</h4>
+					<ol>
+						<li>Dolor pulvinar etiam.</li>
+						<li>Etiam vel felis viverra.</li>
+						<li>Felis enim feugiat.</li>
+						<li>Dolor pulvinar etiam.</li>
+						<li>Etiam vel felis lorem.</li>
+						<li>Felis enim et feugiat.</li>
+					</ol>
+					<h4>Icons</h4>
+					<ul class="icons">
+						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+					</ul>
+
+					<h4>Actions</h4>
+					<ul class="actions">
+						<li><a href="#" class="button primary">Default</a></li>
+						<li><a href="#" class="button">Default</a></li>
+					</ul>
+					<ul class="actions stacked">
+						<li><a href="#" class="button primary">Default</a></li>
+						<li><a href="#" class="button">Default</a></li>
+					</ul>
+				</section>
+
+				<section>
+					<h3 class="major">Table</h3>
+					<h4>Default</h4>
+					<div class="table-wrapper">
+						<table>
+							<thead>
+								<tr>
+									<th>Name</th>
+									<th>Description</th>
+									<th>Price</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Item One</td>
+									<td>Ante turpis integer aliquet porttitor.</td>
+									<td>29.99</td>
+								</tr>
+								<tr>
+									<td>Item Two</td>
+									<td>Vis ac commodo adipiscing arcu aliquet.</td>
+									<td>19.99</td>
+								</tr>
+								<tr>
+									<td>Item Three</td>
+									<td> Morbi faucibus arcu accumsan lorem.</td>
+									<td>29.99</td>
+								</tr>
+								<tr>
+									<td>Item Four</td>
+									<td>Vitae integer tempus condimentum.</td>
+									<td>19.99</td>
+								</tr>
+								<tr>
+									<td>Item Five</td>
+									<td>Ante turpis integer aliquet porttitor.</td>
+									<td>29.99</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="2"></td>
+									<td>100.00</td>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+
+					<h4>Alternate</h4>
+					<div class="table-wrapper">
+						<table class="alt">
+							<thead>
+								<tr>
+									<th>Name</th>
+									<th>Description</th>
+									<th>Price</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Item One</td>
+									<td>Ante turpis integer aliquet porttitor.</td>
+									<td>29.99</td>
+								</tr>
+								<tr>
+									<td>Item Two</td>
+									<td>Vis ac commodo adipiscing arcu aliquet.</td>
+									<td>19.99</td>
+								</tr>
+								<tr>
+									<td>Item Three</td>
+									<td> Morbi faucibus arcu accumsan lorem.</td>
+									<td>29.99</td>
+								</tr>
+								<tr>
+									<td>Item Four</td>
+									<td>Vitae integer tempus condimentum.</td>
+									<td>19.99</td>
+								</tr>
+								<tr>
+									<td>Item Five</td>
+									<td>Ante turpis integer aliquet porttitor.</td>
+									<td>29.99</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="2"></td>
+									<td>100.00</td>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+				</section>
+
+				<section>
+					<h3 class="major">Buttons</h3>
+					<ul class="actions">
+						<li><a href="#" class="button primary">Primary</a></li>
+						<li><a href="#" class="button">Default</a></li>
+					</ul>
+					<ul class="actions">
+						<li><a href="#" class="button">Default</a></li>
+						<li><a href="#" class="button small">Small</a></li>
+					</ul>
+					<ul class="actions">
+						<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+						<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+					</ul>
+					<ul class="actions">
+						<li><span class="button primary disabled">Disabled</span></li>
+						<li><span class="button disabled">Disabled</span></li>
+					</ul>
+				</section>
+
+				<section>
+					<h3 class="major">Form</h3>
+					<form method="post" action="#">
+						<div class="fields">
+							<div class="field half">
+								<label for="demo-name">Name</label>
+								<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+							</div>
+							<div class="field half">
+								<label for="demo-email">Email</label>
+								<input type="email" name="demo-email" id="demo-email" value=""
+									placeholder="jane@untitled.tld" />
+							</div>
+							<div class="field">
+								<label for="demo-category">Category</label>
+								<select name="demo-category" id="demo-category">
+									<option value="">-</option>
+									<option value="1">Manufacturing</option>
+									<option value="1">Shipping</option>
+									<option value="1">Administration</option>
+									<option value="1">Human Resources</option>
+								</select>
+							</div>
+							<div class="field half">
+								<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+								<label for="demo-priority-low">Low</label>
+							</div>
+							<div class="field half">
+								<input type="radio" id="demo-priority-high" name="demo-priority">
+								<label for="demo-priority-high">High</label>
+							</div>
+							<div class="field half">
+								<input type="checkbox" id="demo-copy" name="demo-copy">
+								<label for="demo-copy">Email me a copy</label>
+							</div>
+							<div class="field half">
+								<input type="checkbox" id="demo-human" name="demo-human" checked>
+								<label for="demo-human">Not a robot</label>
+							</div>
+							<div class="field">
+								<label for="demo-message">Message</label>
+								<textarea name="demo-message" id="demo-message" placeholder="Enter your message"
+									rows="6"></textarea>
+							</div>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Send Message" class="primary" /></li>
+							<li><input type="reset" value="Reset" /></li>
+						</ul>
+					</form>
+				</section>
+
+			</article>
+
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<p class="copyright">&copy; TaeJiSeungWoo <a href="https://www.bible.ac.kr/">Contact :
+					cherryshine@bible.ac.kr</a>.</p>
+		</footer>
+
+	</div>
+
+	<!-- BG -->
+	<div id="bg"></div>
+
+	<!-- Scripts -->
+	<script src="{% static 'assets/js/jquery.min.js' %}"></script>
+	<script src="{% static 'assets/js/browser.min.js' %}"></script>
+	<script src="{% static 'assets/js/breakpoints.min.js' %}"></script>
+	<script src="{% static 'assets/js/util.js' %}"></script>
+	<script src="{% static 'assets/js/main.js' %}"></script>
+
+	<!-- 캠퍼스맵 좌표 반응형 Scripts -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js"></script>
+</body>
+<!-- 캠퍼스맵 좌표 반응형 Scripts -->
+<script>
+	$(document).ready(function () {
+		$('img[usemap]').rwdImageMaps();
+	});
+</script>
+
+</html>

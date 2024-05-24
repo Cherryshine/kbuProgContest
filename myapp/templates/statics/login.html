@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+	<script>
+	$(window).load(function() {
+		$('#load').hide();
+	});
+	function onSubmit(){
+		$('#load').show();
+		document.testform.submit();
+		return true;
+	}
+	</script>
+	<title>한국성서대 빈 강의실 조회 서비스</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+<!--===============================================================================================-->
+	<!-- <link rel="icon" type="image/png" href="{% static 'source/login/icons/favicon.ico' %}"/> -->
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'fonts/font-awesome-4.7.0/css/font-awesome.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'fonts/iconic/css/material-design-iconic-font.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/animate/animate.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/css-hamburgers/hamburgers.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/animsition/css/animsition.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/select2/select2.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/daterangepicker/daterangepicker.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'css/login/util.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/login/main.css' %}">
+<!--===============================================================================================-->
+
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/9ae1ade2c0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<style>
+		#load {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	display: block;
+	opacity: 0.8;
+	background: white;
+	z-index: 99;
+	text-align: center;
+}
+
+#load > img {
+	margin: 0; 
+	padding: 0; 
+	margin: 0 auto;
+	top: 50%;
+	left: 50%;
+	z-index: 100;
+}
+</style>
+<div class = "load" id="load" style="display:none">
+<!-- <img src="{% static 'source/login/loading.gif' %}" alt="loading"> -->
+<style>
+h2 {
+  color: black;
+  margin : 0;
+  font: .8em verdana;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+/*
+ * Loading Dots
+ * Can we use pseudo elements here instead :after?
+ */
+.loading span {
+  display: inline-block;
+  vertical-align: middle;
+  width: .6em;
+  height: .6em;
+  margin: .19em;
+  background: #E8150C;
+  border-radius: .6em;
+  animation: loading 1s infinite alternate;
+}
+
+/*
+ * Dots Colors
+ * Smarter targeting vs nth-of-type?
+ */
+.loading span:nth-of-type(2) {
+  background: #F2370C;
+  animation-delay: 0.2s;
+}
+.loading span:nth-of-type(3) {
+  background: #F2960C;
+  animation-delay: 0.4s;
+}
+.loading span:nth-of-type(4) {
+  background: #DB9800;
+  animation-delay: 0.6s;
+}
+.loading span:nth-of-type(5) {
+  background: #F2C40C;
+  animation-delay: 0.8s;
+}
+.loading span:nth-of-type(6) {
+  background: #E8D20C;
+  animation-delay: 1.0s;
+}
+.loading span:nth-of-type(7) {
+  background: #A0B61E;
+  animation-delay: 1.2s;
+}
+
+@keyframes loading {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+</style>
+<style>
+	.loading{
+		max-width:100%;
+		width : auto !important;
+		height : auto !important;
+		position: absolute;
+		padding: 20px;
+		width: 300px;
+		border-radius: 5px;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+</style>
+<div class="loading">
+	<h2><strong>강의정보 불러오는중</strong></h2>
+	<span></span>
+	<span></span>
+	<span></span>
+	<span></span>
+	<span></span>
+	<span></span>
+	<span></span>
+</div>
+</div>
+	<div class="limiter">
+		<div class="container-login100" id= "bg" style="background-image: url('static/source/login/bg-01.jpg');">
+			<div class="wrap-login100">
+				<form class="login100-form validate-form" action="{% url 'logincheck' %}" method="POST" onsubmit="onSubmit();">  
+					{% csrf_token %}
+					<span class="login100-form-logo">
+					
+						<i class="fa-solid fa-magnifying-glass"></i>
+					</span>
+					<style>
+						.login100-form-title{
+							font-family: 'Nanum Gothic', sans-serif;
+						}
+					</style>
+						<link rel="preconnect" href="https://fonts.googleapis.com">
+						<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+						<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
+					<span class="login100-form-title p-b-34 p-t-27">	
+						<li>한국성서대학교</li> 빈강의실 조회 서비스
+					</span>
+
+					<div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" name="id" placeholder="인트라넷 아이디">
+						<span class="focus-input100" data-placeholder="&#xf207;"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="Enter password">
+						<input class="input100" type="password" name="password" placeholder="인트라넷 비밀번호">
+						<span class="focus-input100" data-placeholder="&#xf191;"></span>
+					</div>
+
+					<div class="contact100-form-checkbox">
+						<input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
+						<label class="label-checkbox100" for="ckb1">
+							Remember me
+						</label>
+					</div>
+
+					<div class="container-login100-form-btn">
+						<input type="submit" value="로그인" class="login100-form-btn">
+					</div>
+
+					<div class="text-center p-t-90">
+						
+						</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="dropDownSelect1"></div>
+
+<!--===============================================================================================-->
+	<script src="{% static 'vendor/jquery/jquery-3.2.1.min.js' %}"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'vendor/animsition/js/animsition.min.js' %}"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'vendor/bootstrap/js/popper.js' %}"></script>
+	<script src="{% static 'vendor/bootstrap/js/bootstrap.min.js' %}"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'vendor/select2/select2.min.js' %}"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'vendor/daterangepicker/moment.min.js' %}"></script>
+	<script src="{% static 'vendor/daterangepicker/daterangepicker.js' %}"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'vendor/countdowntime/countdowntime.js' %}"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'js/main.js' %}"></script>
+
+</body>
+</html>
